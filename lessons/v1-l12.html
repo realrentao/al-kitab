@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>المواصلات | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/المواصلات.mp3" onclick="playAudio('../audio/p02/المواصلات.mp3')">المواصلات</span></h1>
+  <p style="color:#555;">第十二课：交通出行</p>
+  <div class="tags"><span class="tag">سيارة</span><span class="tag">قطار</span><span class="tag">سفر</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تخطط رحلة المواصلات</span> <span class="obj-cn">会规划交通行程</span></li><li><span class="ar-obj">أن تستعمل فعل الحركة + جر</span> <span class="obj-cn">会用运动动词+介词</span></li><li><span class="ar-obj">أن تستعمل سـ للاستقبال</span> <span class="obj-cn">会用 سـ 表将来</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">مسافر<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/كيف-أذهب-إلى-المطار_m.mp3" onclick="playAudio('../audio/p04/كيف-أذهب-إلى-المطار_m.mp3')">كيف أذهب إلى المطار؟</span></span></div>
+<div class="dlg-row"><span class="speaker">موظف<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/يمكنك-أن-تأخذ-سيارة-أجرة-أو-الحافلة_m.mp3" onclick="playAudio('../audio/p05/يمكنك-أن-تأخذ-سيارة-أجرة-أو-الحافلة_m.mp3')">يمكنك أن تأخذ سيارة أجرة أو الحافلة.</span></span></div>
+<div class="dlg-row"><span class="speaker">مسافر<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/كم-تستغرق-الرحلة-بالسيارة_m.mp3" onclick="playAudio('../audio/p04/كم-تستغرق-الرحلة-بالسيارة_m.mp3')">كم تستغرق الرحلة بالسيارة؟</span></span></div>
+<div class="dlg-row"><span class="speaker">موظف<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/تستغرق-نصف-ساعة-تقريبا_m.mp3" onclick="playAudio('../audio/p03/تستغرق-نصف-ساعة-تقريبا_m.mp3')">تستغرق نصف ساعة تقريباً.</span></span></div>
+<div class="dlg-row"><span class="speaker">مسافر<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/وهل-هناك-قطار-للمطار_m.mp3" onclick="playAudio('../audio/p05/وهل-هناك-قطار-للمطار_m.mp3')">وهل هناك قطار للمطار؟</span></span></div>
+<div class="dlg-row"><span class="speaker">موظف<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/نعم-القطارات-تعمل-كل-ساعتين_m.mp3" onclick="playAudio('../audio/p05/نعم-القطارات-تعمل-كل-ساعتين_m.mp3')">نعم، القطارات تعمل كل ساعتين.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l12-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l12-0.mp3')">سَأُسَافِرُ إِلَى المَدِينَةِ غَدًا بِالقِطَارِ.</span><div class="rd-cn">我明天坐火车去城里。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l12-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l12-1.mp3')">ذَهَبْتُ إِلَى المَحَطَّةِ وَاشْتَرَيْتُ تَذْكِرَةً.</span><div class="rd-cn">我去车站买了票。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l12-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l12-2.mp3')">سَنَصِلُ بَعْدَ سَاعَتَيْنِ إِلَى الوُصُولِ.</span><div class="rd-cn">我们将在两小时后抵达。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l12-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l12-3.mp3')">المَوَاصَلَاتُ سَهْلَةٌ فِي بِلَادِنَا.</span><div class="rd-cn">我国的交通很便利。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سيارة.mp3" onclick="playAudio('../audio/p03/سيارة.mp3')">سيارة</span></td><td class="roman">sayyāra</td><td>汽车</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سيارة-أجرة.mp3" onclick="playAudio('../audio/p03/سيارة-أجرة.mp3')">سيارة أجرة</span></td><td class="roman">sayyāra ajra</td><td>出租车</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حافلة-باص.mp3" onclick="playAudio('../audio/p03/حافلة-باص.mp3')">حافلة / باص</span></td><td class="roman">ḥāfila / bāṣ</td><td>公交车</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قطار.mp3" onclick="playAudio('../audio/p04/قطار.mp3')">قطار</span></td><td class="roman">qiṭār</td><td>火车</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/طائرة-طيرة.mp3" onclick="playAudio('../audio/p03/طائرة-طيرة.mp3')">طائرة / طيرة</span></td><td class="roman">ṭāʾira / ṭāʾira</td><td>飞机</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مطار.mp3" onclick="playAudio('../audio/p04/مطار.mp3')">مطار</span></td><td class="roman">maṭār</td><td>机场</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/محطة.mp3" onclick="playAudio('../audio/p04/محطة.mp3')">محطة</span></td><td class="roman">maḥaṭṭa</td><td>车站</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/شارع.mp3" onclick="playAudio('../audio/p03/شارع.mp3')">شارع</span></td><td class="roman">shāriʿ</td><td>街道</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جسر-كوبري.mp3" onclick="playAudio('../audio/p03/جسر-كوبري.mp3')">جسر / كوبري</span></td><td class="roman">jisr / kubrī</td><td>桥</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إشارة-مرور.mp3" onclick="playAudio('../audio/p02/إشارة-مرور.mp3')">إشارة مرور</span></td><td class="roman">ishārat murūr</td><td>交通信号灯</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رحلة.mp3" onclick="playAudio('../audio/p03/رحلة.mp3')">رحلة</span></td><td class="roman">riḥla</td><td>旅程/旅行</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سفر.mp3" onclick="playAudio('../audio/p03/سفر.mp3')">سفر</span></td><td class="roman">safar</td><td>旅行/出差</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/تذكرة.mp3" onclick="playAudio('../audio/p02/تذكرة.mp3')">تذكرة</span></td><td class="roman">adhkirat / tadhkara</td><td>票</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جواز-سفر.mp3" onclick="playAudio('../audio/p03/جواز-سفر.mp3')">جواز سفر</span></td><td class="roman">jawāz safar</td><td>护照</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حقائب.mp3" onclick="playAudio('../audio/p03/حقائب.mp3')">حقائب</span></td><td class="roman">ḥaqāʾib</td><td>行李</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/وصول.mp3" onclick="playAudio('../audio/p05/وصول.mp3')">وصول</span></td><td class="roman">wuṣūl</td><td>到达</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مغادرة.mp3" onclick="playAudio('../audio/p04/مغادرة.mp3')">مغادرة</span></td><td class="roman">mughādara</td><td>出发</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>方向与移动（الحركة والاتجاه）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/أذهب-إلى-.mp3" onclick="playAudio('../audio/p02/أذهب-إلى-.mp3')">أَذْهَبُ إِلَى ...</span></td><td class="roman">adhhabu ilā ...</td><td>我去往……</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أجيء-من-.mp3" onclick="playAudio('../audio/p02/أجيء-من-.mp3')">أَجِيءُ مِنْ ...</span></td><td class="roman">ajīʾu min ...</td><td>我从……来</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أمر-بـ-.mp3" onclick="playAudio('../audio/p02/أمر-بـ-.mp3')">أَمُرُّ بِـ ...</span></td><td class="roman">amurru bi- ...</td><td>我经过……</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أنزل-عند-.mp3" onclick="playAudio('../audio/p02/أنزل-عند-.mp3')">أَنْزِلُ عِنْدَ ...</span></td><td class="roman">anzilu ʿinda ...</td><td>我在……下车</td></tr></table></div>
+<div class="gram-block"><h4>时间持续</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p03/تستغرق-الرحلة.mp3" onclick="playAudio('../audio/p03/تستغرق-الرحلة.mp3')">تَسْتَغْرِقُ الرِّحْلَةُ</span></td><td class="roman">tastaghriqu r-riḥlatu</td><td>旅程需要（时间）</td></tr><tr><td><span class="ar" data-audio="../audio/p05/نصف-ساعة.mp3" onclick="playAudio('../audio/p05/نصف-ساعة.mp3')">نِصْفُ سَاعَةٍ</span></td><td class="roman">niṣfu sāʿatin</td><td>半小时</td></tr><tr><td><span class="ar" data-audio="../audio/p03/ساعتان.mp3" onclick="playAudio('../audio/p03/ساعتان.mp3')">سَاعَتَانِ</span></td><td class="roman">sāʿatāni</td><td>两小时</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l12-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l12-0.mp3')">مَتَى يُغَادِرُ القِطَارُ؟</span><span class="ex-cn"> — 火车何时发车？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l12-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l12-1.mp3')">إِلَى أَيْنَ تَذْهَبُ؟</span><span class="ex-cn"> — 你去哪儿？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l12-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l12-2.mp3')">سَأَرْجِعُ مَسَاءً</span><span class="ex-cn"> — 我晚上回来</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l12-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l12-3.mp3')">أَيْنَ المَحَطَّةُ؟</span><span class="ex-cn"> — 车站在哪？</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯半岛的城市规划以汽车为中心，高速公路网络发达。迪拜、利雅得、吉达等大城市拥有现代化的地铁系统（如迪拜地铁）。公共交通在开罗、突尼斯等老城也很发达。出租车是最常见的市内交通工具，费用相对低廉。城际旅行则以国内航班为主（因地理辽阔），也有长途巴士连接各城市。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

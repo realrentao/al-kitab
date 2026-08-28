@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الكتابة الأكاديمية والحجة | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتقدم</div>
+  <h1><span class="ar" data-audio="../audio/p02/الكتابة-الأكاديمية-والحجة.mp3" onclick="playAudio('../audio/p02/الكتابة-الأكاديمية-والحجة.mp3')">الكتابة الأكاديمية والحجة</span></h1>
+  <p style="color:#555;">高级第四单元：学术写作与论证</p>
+  <div class="tags"><span class="tag">كتابة</span><span class="tag">بحث</span><span class="tag">حجة</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تبني حجة أكاديمية</span> <span class="obj-cn">会构建学术论证</span></li><li><span class="ar-obj">أن توصل الأفكار</span> <span class="obj-cn">会连接观点</span></li><li><span class="ar-obj">أن تستعمل المصدر المؤول</span> <span class="obj-cn">会用虚指名词</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+
+</section>
+
+
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بحث-علمي.mp3" onclick="playAudio('../audio/p02/بحث-علمي.mp3')">بحث علمي</span></td><td class="roman">baḥth ʿilmī</td><td>科学研究/论文</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رسالة.mp3" onclick="playAudio('../audio/p03/رسالة.mp3')">رسالة</span></td><td class="roman">risāla</td><td>论文/学位论文</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أطروحة.mp3" onclick="playAudio('../audio/p02/أطروحة.mp3')">أطروحة</span></td><td class="roman">athrawtha</td><td>博士论文</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مقدمة.mp3" onclick="playAudio('../audio/p04/مقدمة.mp3')">مقدمة</span></td><td class="roman">muqaddima</td><td>引言</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خاتمة.mp3" onclick="playAudio('../audio/p03/خاتمة.mp3')">خاتمة</span></td><td class="roman">khātima</td><td>结论</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مناقشة.mp3" onclick="playAudio('../audio/p04/مناقشة.mp3')">مناقشة</span></td><td class="roman">munāqaṣa</td><td>讨论</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/توصية.mp3" onclick="playAudio('../audio/p03/توصية.mp3')">توصية</span></td><td class="roman">tawṣiyya</td><td>建议</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مراجع.mp3" onclick="playAudio('../audio/p04/مراجع.mp3')">مراجع</span></td><td class="roman">marājiʿ</td><td>参考文献</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مصدر.mp3" onclick="playAudio('../audio/p04/مصدر.mp3')">مصدر</span></td><td class="roman">maṣdar</td><td>来源</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/استشهاد.mp3" onclick="playAudio('../audio/p02/استشهاد.mp3')">استشهاد</span></td><td class="roman">istishhād</td><td>引用/举证</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حجة.mp3" onclick="playAudio('../audio/p03/حجة.mp3')">حجة</span></td><td class="roman">ḥujja</td><td>论证/论据</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/برهان.mp3" onclick="playAudio('../audio/p02/برهان.mp3')">برهان</span></td><td class="roman">burhān</td><td>证明</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/دليل.mp3" onclick="playAudio('../audio/p03/دليل.mp3')">دليل</span></td><td class="roman">dalīl</td><td>证据</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/فرضية.mp3" onclick="playAudio('../audio/p04/فرضية.mp3')">فرضية</span></td><td class="roman">farḍiyya</td><td>假设</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نظرية.mp3" onclick="playAudio('../audio/p05/نظرية.mp3')">نظرية</span></td><td class="roman">nazariyya</td><td>理论</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/منهج.mp3" onclick="playAudio('../audio/p04/منهج.mp3')">منهج</span></td><td class="roman">manhaj</td><td>方法</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إحصاء.mp3" onclick="playAudio('../audio/p02/إحصاء.mp3')">إحصاء</span></td><td class="roman">iḥṣāʾ</td><td>统计学</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بيانات.mp3" onclick="playAudio('../audio/p02/بيانات.mp3')">بيانات</span></td><td class="roman">bayānāt</td><td>数据</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نتائج.mp3" onclick="playAudio('../audio/p05/نتائج.mp3')">نتائج</span></td><td class="roman">natāʾij</td><td>结果</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/استنتاج.mp3" onclick="playAudio('../audio/p02/استنتاج.mp3')">استنتاج</span></td><td class="roman">istinbāṭ</td><td>推论/结论</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u04-0.mp3" onclick="playAudio('../audio/p00/ex-v3-u04-0.mp3')">حُجَّةٌ مُتَنَاسِقَةٌ</span><span class="ex-cn"> — 连贯的论证</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u04-1.mp3" onclick="playAudio('../audio/p00/ex-v3-u04-1.mp3')">مِنْ جِهَةٍ ... وَمِنْ جِهَةٍ</span><span class="ex-cn"> — 一方面…另一方面</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u04-2.mp3" onclick="playAudio('../audio/p00/ex-v3-u04-2.mp3')">اِسْتِنْتَاجٌ مَنْطِقِيٌّ</span><span class="ex-cn"> — 逻辑推论</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u04-3.mp3" onclick="playAudio('../audio/p00/ex-v3-u04-3.mp3')">ضَرُورَةُ أَنْ ...</span><span class="ex-cn"> — …的必要性</span></div></div>
+</section>
+
+
+
+<section class="section reading">
+<h2>📖 فن كتابة البحث الأكاديمي باللغة العربية</h2>
+<div class="reading-ar"><p>الكتابة الأكاديمية باللغة العربية تتطلب إتقاناً عالياً للغة الفصحى، وقدرة على بناء الحجج المنطقية، ومعرفة بأصول البحث العلمي.
+
+هيكل البحث الأكاديمي العربي يتكون عادة من: عنوان البحث، والمقدمة (وتشمل مشكلة البحث وأهدافه وأهميته)، والإطار النظري (مراجعة الأدبيات)، والمنهجية، والنتائج والمناقشة، والخاتمة والتوصيات، وقائمة المراجع.
+
+من أهم خصائص الكتابة الأكاديمية العربية: الموضوعية (تجنب العاطفة والتحيز)، والدقة في استخدام المصطلحات، والاستشهاد بالمصادر بشكل صحيح، والوضوح في عرض الأفكار.</p></div>
+<div class="reading-cn"><p>阿拉伯语学术写作需要对标准语的高度掌握、构建逻辑论证的能力以及对科学研究方法的了解。
+
+阿拉伯学术论文的结构通常包括：标题、引言（含研究问题、目标和意义）、理论框架（文献综述）、方法论、结果与讨论、结论与建议、参考文献列表。
+
+阿拉伯语学术写作的主要特点包括：客观性（避免情绪化和偏见）、术语使用的准确性、正确引用来源、思路表达的清晰性。</p></div>
+</section>
+<section class="section discussion">
+<h2>💬 Discussion Questions</h2>
+<ol class="dq-list"><li>ما الفرق بين الكتابة الأكاديمية والكتابة الصحفية باللغة العربية؟</li><li>كيف نختار موضوع بحث مناسب؟</li><li>ما أهمية مراجعة الأدبيات في البحث العلمي؟</li></ol>
+</section>
+<section class="section gtopics">
+<h2>📚 Grammar Topics</section>
+<div class="gtopic"><strong>学术写作中的被动语态:</strong> 学术文本偏好被动语态以突出客观性：أُجْرِيَتِ الدِّرَاسَةُ على مجموعة من الطلاب（研究在一组学生中进行）。注意：被动式的发音变化规则。</div><div class="gtopic"><strong>条件复合句（الشرط المركب）:</strong> إِذَا كَانَ ... وَإِذَا تَمَّ ... فَإِنَّ ...（如果……并且如果完成了……那么……）。用于描述研究条件和推论链。</div>
+</section>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

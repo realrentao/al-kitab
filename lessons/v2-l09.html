@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>التاريخ والحضارة | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتوسط</div>
+  <h1><span class="ar" data-audio="../audio/p02/التاريخ-والحضارة.mp3" onclick="playAudio('../audio/p02/التاريخ-والحضارة.mp3')">التاريخ والحضارة</span></h1>
+  <p style="color:#555;">中级第九课：历史与文明</p>
+  <div class="tags"><span class="tag">تاريخ</span><span class="tag">حضارة</span><span class="tag">إمبراطورية</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تسرد حدثًا تاريخيًا</span> <span class="obj-cn">会叙述历史事件</span></li><li><span class="ar-obj">أن تستعمل الماضي السردي</span> <span class="obj-cn">会用叙事过去时</span></li><li><span class="ar-obj">أن تذكر الحضارة</span> <span class="obj-cn">会提及文明</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">أستاذ تاريخ<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/الحضارة-الإسلامية-امتدت-من-إسبانيا-إلى-الهند-خلال_m.mp3" onclick="playAudio('../audio/p02/الحضارة-الإسلامية-امتدت-من-إسبانيا-إلى-الهند-خلال_m.mp3')">الحضارة الإسلامية امتدت من إسبانيا إلى الهند خلال قرون قليلة.</span></span></div>
+<div class="dlg-row"><span class="speaker">طالبة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p04/ما-أسباب-هذا-الانتشار-السريع_f.mp3" onclick="playAudio('../audio/p04/ما-أسباب-هذا-الانتشار-السريع_f.mp3')">ما أسباب هذا الانتشار السريع؟</span></span></div>
+<div class="dlg-row"><span class="speaker">أستاذ تاريخ<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/التسامح-الديني-والتجارة-الحرة-والترجمة-العلمية_m.mp3" onclick="playAudio('../audio/p02/التسامح-الديني-والتجارة-الحرة-والترجمة-العلمية_m.mp3')">التسامح الديني، والتجارة الحرة، والترجمة العلمية، والاستقرار السياسي—all contributed.</span></span></div>
+<div class="dlg-row"><span class="speaker">طالبة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p05/وأي-حقبة-تعتبر-الأكثر-تأثيرا_f.mp3" onclick="playAudio('../audio/p05/وأي-حقبة-تعتبر-الأكثر-تأثيرا_f.mp3')">وأي حقبة تعتبر الأكثر تأثيراً؟</span></span></div>
+<div class="dlg-row"><span class="speaker">أستاذ تاريخ<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/العصر-الذهبي-القرن-8-13م-شهد-أعظم-الإنجازات-في-ا_m.mp3" onclick="playAudio('../audio/p02/العصر-الذهبي-القرن-8-13م-شهد-أعظم-الإنجازات-في-ا_m.mp3')">العصر الذهبي (القرن 8-13م) شهد أعظم الإنجازات في العلوم والفلسفة.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l09-0.mp3" onclick="playAudio('../audio/p01/rd-v2-l09-0.mp3')">بَنَى الأَجْدَادُ حَضَارَةً عَظِيمَةً.</span><div class="rd-cn">祖先建立了伟大的文明。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l09-1.mp3" onclick="playAudio('../audio/p01/rd-v2-l09-1.mp3')">قَامَ العُلَمَاءُ وَأَنْشَأُوا المَدَارِسَ.</span><div class="rd-cn">学者们起身创建了学校。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l09-2.mp3" onclick="playAudio('../audio/p01/rd-v2-l09-2.mp3')">نَقَلَ الرُّوَاةُ القِصَصَ جِيلًا بَعْدَ جِيلٍ.</span><div class="rd-cn">传述者一代代传下故事。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l09-3.mp3" onclick="playAudio('../audio/p01/rd-v2-l09-3.mp3')">نَفْخَرُ بِتَارِيخِنَا وَنَبْنِي المُسْتَقْبَلَ.</span><div class="rd-cn">我们为历史自豪，并建设未来。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/تاريخ.mp3" onclick="playAudio('../audio/p02/تاريخ.mp3')">تاريخ</span></td><td class="roman">tarīkh</td><td>历史</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حضارة.mp3" onclick="playAudio('../audio/p03/حضارة.mp3')">حضارة</span></td><td class="roman">ḥaḍāra</td><td>文明</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إمبراطورية.mp3" onclick="playAudio('../audio/p02/إمبراطورية.mp3')">إمبراطورية</span></td><td class="roman">imbāṭūriyya</td><td>帝国</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خلافة.mp3" onclick="playAudio('../audio/p03/خلافة.mp3')">خلافة</span></td><td class="roman">khilāfa</td><td>哈里发国/Caliphate</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/فتح.mp3" onclick="playAudio('../audio/p04/فتح.mp3')">فتح</span></td><td class="roman">fatḥ</td><td>征服</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إمبراطورية-أموية.mp3" onclick="playAudio('../audio/p02/إمبراطورية-أموية.mp3')">إمبراطورية أموية</span></td><td class="roman">al-Khilāfa al-Umawiyya</td><td>倭马亚王朝</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إمبراطورية-عباسية.mp3" onclick="playAudio('../audio/p02/إمبراطورية-عباسية.mp3')">إمبراطورية عباسية</span></td><td class="roman">al-Khilāfa al-ʿAbbāsiyya</td><td>阿拔斯王朝</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عصر-ذهبي.mp3" onclick="playAudio('../audio/p04/عصر-ذهبي.mp3')">عصر ذهبي</span></td><td class="roman">ʿaṣr dhahabī</td><td>黄金时代</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بغداد.mp3" onclick="playAudio('../audio/p02/بغداد.mp3')">بغداد</span></td><td class="roman">Baghdād</td><td>巴格达</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قرطبة.mp3" onclick="playAudio('../audio/p04/قرطبة.mp3')">قرطبة</span></td><td class="roman">Qurṭuba</td><td>科尔多瓦</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/القاهرة.mp3" onclick="playAudio('../audio/p02/القاهرة.mp3')">القاهرة</span></td><td class="roman">al-Qāhira</td><td>开罗</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/دمشق.mp3" onclick="playAudio('../audio/p03/دمشق.mp3')">دمشق</span></td><td class="roman">Dimashq</td><td>大马士革</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/الأندلس.mp3" onclick="playAudio('../audio/p02/الأندلس.mp3')">الأندلس</span></td><td class="roman">al-Andalus</td><td>安达卢西亚（西班牙）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حروب-صليبية.mp3" onclick="playAudio('../audio/p03/حروب-صليبية.mp3')">حروب صليبية</span></td><td class="roman">ḥurūb ṣalībiyya</td><td>十字军东征</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/استعمار.mp3" onclick="playAudio('../audio/p02/استعمار.mp3')">استعمار</span></td><td class="roman">istiʿmār</td><td>殖民主义</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/استقلال.mp3" onclick="playAudio('../audio/p02/استقلال.mp3')">استقلال</span></td><td class="roman">istiqlāl</td><td>独立</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثورة.mp3" onclick="playAudio('../audio/p03/ثورة.mp3')">ثورة</span></td><td class="roman">thawra</td><td>革命</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مملكة.mp3" onclick="playAudio('../audio/p04/مملكة.mp3')">مملكة</span></td><td class="roman">mamlaka</td><td>王国</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جمهورية.mp3" onclick="playAudio('../audio/p03/جمهورية.mp3')">جمهورية</span></td><td class="roman">jumhūriyya</td><td>共和国</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>历史叙述时态</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/امتدت-الحضارة.mp3" onclick="playAudio('../audio/p02/امتدت-الحضارة.mp3')">امتَدَّتِ الْحَضَارَةُ</span></td><td class="roman">imtattadat al-ḥaḍāratu</td><td>文明延伸了</td></tr><tr><td><span class="ar" data-audio="../audio/p03/شهد-العصر-.mp3" onclick="playAudio('../audio/p03/شهد-العصر-.mp3')">شَهِدَ الْعَصْرُ ...</span></td><td class="roman">shahida l-ʿaṣru ...</td><td>时代见证了……</td></tr><tr><td><span class="ar" data-audio="../audio/p03/ساهم-في-.mp3" onclick="playAudio('../audio/p03/ساهم-في-.mp3')">سَاهَمَ ... فِي ...</span></td><td class="roman">sāhma ... fī ...</td><td>……对……做出了贡献</td></tr></table></div>
+<div class="gram-block"><h4>年代表达</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/القرن-الثامن-الميلادي.mp3" onclick="playAudio('../audio/p02/القرن-الثامن-الميلادي.mp3')">الْقَرْنِ الثَّامِنِ المِيلَادِيِّ</span></td><td class="roman">al-qarni th-thāmini l-mīlādī</td><td>公元八世纪</td></tr><tr><td><span class="ar" data-audio="../audio/p04/في-القرون-الوسطى.mp3" onclick="playAudio('../audio/p04/في-القرون-الوسطى.mp3')">فِي الْقُرُونِ الْوُسْطَى</span></td><td class="roman">fī l-qurūni l-wusṭā</td><td>在中世纪</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l09-0.mp3" onclick="playAudio('../audio/p00/ex-v2-l09-0.mp3')">مَتَى تَأَسَّسَتْ هَذِهِ الدَّوْلَةُ؟</span><span class="ex-cn"> — 这个国家何时建立？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l09-1.mp3" onclick="playAudio('../audio/p00/ex-v2-l09-1.mp3')">تُرَاثٌ إنْسَانِيٌّ</span><span class="ex-cn"> — 人类遗产</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l09-2.mp3" onclick="playAudio('../audio/p00/ex-v2-l09-2.mp3')">عَصْرٌ ذَهَبِيٌّ</span><span class="ex-cn"> — 黄金时代</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l09-3.mp3" onclick="playAudio('../audio/p00/ex-v2-l09-3.mp3')">دَرْسٌ مِنَ التَّارِيخِ</span><span class="ex-cn"> — 历史的教训</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯-伊斯兰文明是人类历史上最辉煌的文明之一。从7世纪到13世纪的扩张创造了横跨三大洲的帝国。巴格达（762年建城）成为世界学术中心，「智慧宫」（بيت الحكمة）汇聚了希腊、波斯、印度和阿拉伯学者的智慧。重大贡献包括：代数学（花剌子模）、光学（伊本·海赛姆）、医学（伊本·西那）、化学（贾比尔）、哲学（金迪、阿维罗伊）。安达卢西亚（西班牙南部）保存并传递了古希腊罗马知识给欧洲，为文艺复兴铺路。近代殖民统治（19-20世纪）重塑了政治版图，独立后的民族国家体系延续至今。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

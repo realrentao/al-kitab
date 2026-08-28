@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مناهج تعليم اللغات | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتقدم</div>
+  <h1><span class="ar" data-audio="../audio/p04/مناهج-تعليم-اللغات.mp3" onclick="playAudio('../audio/p04/مناهج-تعليم-اللغات.mp3')">مناهج تعليم اللغات</span></h1>
+  <p style="color:#555;">高级第一单元：语言教学方法论</p>
+  <div class="tags"><span class="tag">منهج</span><span class="tag">تعليم</span><span class="tag">اكتساب</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تحلل منهجية التعليم</span> <span class="obj-cn">会分析教学法</span></li><li><span class="ar-obj">أن تفرق بين النهج</span> <span class="obj-cn">能区分不同路径</span></li><li><span class="ar-obj">أن تقيّم مخرجات التعلم</span> <span class="obj-cn">会评估学习产出</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+
+</section>
+
+
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/منهج.mp3" onclick="playAudio('../audio/p04/منهج.mp3')">منهج</span></td><td class="roman">manhaj</td><td>方法论/课程</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/اكتساب.mp3" onclick="playAudio('../audio/p02/اكتساب.mp3')">اكتساب</span></td><td class="roman">iktisāb</td><td>习得/获得</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/لغة-ثانية.mp3" onclick="playAudio('../audio/p04/لغة-ثانية.mp3')">لغة ثانية</span></td><td class="roman">lugha thāniya</td><td>第二语言</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/لغة-أجنبية.mp3" onclick="playAudio('../audio/p04/لغة-أجنبية.mp3')">لغة أجنبية</span></td><td class="roman">lugha ajnabiyya</td><td>外语</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/ناطق-باللغة.mp3" onclick="playAudio('../audio/p04/ناطق-باللغة.mp3')">ناطق باللغة</span></td><td class="roman">nātiq bi-lugha</td><td>该语言的母语者</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مستوى.mp3" onclick="playAudio('../audio/p04/مستوى.mp3')">مستوى</span></td><td class="roman">mustawā</td><td>水平/级别</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مهارة.mp3" onclick="playAudio('../audio/p04/مهارة.mp3')">مهارة</span></td><td class="roman">mihāra</td><td>技能</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/استماع.mp3" onclick="playAudio('../audio/p02/استماع.mp3')">استماع</span></td><td class="roman">istimāʿ</td><td>听力</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قراءة.mp3" onclick="playAudio('../audio/p04/قراءة.mp3')">قراءة</span></td><td class="roman">qirāʾa</td><td>阅读</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كتابة.mp3" onclick="playAudio('../audio/p04/كتابة.mp3')">كتابة</span></td><td class="roman">kitāba</td><td>写作</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/تحدث.mp3" onclick="playAudio('../audio/p02/تحدث.mp3')">تحدث</span></td><td class="roman">taḥadduth</td><td>口语</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قاعدة-نحوية.mp3" onclick="playAudio('../audio/p04/قاعدة-نحوية.mp3')">قاعدة نحوية</span></td><td class="roman">qāʿida naḥwiyya</td><td>语法规则</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مفردة.mp3" onclick="playAudio('../audio/p04/مفردة.mp3')">مفردة</span></td><td class="roman">mufrada</td><td>单词/词条</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ترجمة.mp3" onclick="playAudio('../audio/p02/ترجمة.mp3')">ترجمة</span></td><td class="roman">tarjama</td><td>翻译</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تواصلي.mp3" onclick="playAudio('../audio/p03/تواصلي.mp3')">تواصلي</span></td><td class="roman">tawāṣulī</td><td>交际的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تكاملي.mp3" onclick="playAudio('../audio/p03/تكاملي.mp3')">تكاملي</span></td><td class="roman">takāmulī</td><td>综合的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تعرض.mp3" onclick="playAudio('../audio/p03/تعرض.mp3')">تعرض</span></td><td class="roman">taʿarruḍ</td><td>接触/暴露</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/انغماس-immersion.mp3" onclick="playAudio('../audio/p02/انغماس-immersion.mp3')">انغماس / immersion</span></td><td class="roman">inghmās</td><td>沉浸</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تصحيح.mp3" onclick="playAudio('../audio/p03/تصحيح.mp3')">تصحيح</span></td><td class="roman">taṣḥīḥ</td><td>纠正</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تقييم.mp3" onclick="playAudio('../audio/p03/تقييم.mp3')">تقييم</span></td><td class="roman">taqwīm</td><td>评估</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كفاءة.mp3" onclick="playAudio('../audio/p04/كفاءة.mp3')">كفاءة</span></td><td class="roman">kifāya</td><td>能力/熟练度</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u01-0.mp3" onclick="playAudio('../audio/p00/ex-v3-u01-0.mp3')">مَنْهَجٌ قَائِمٌ عَلَى المَهَارَاتِ</span><span class="ex-cn"> — 以技能为本的大纲</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u01-1.mp3" onclick="playAudio('../audio/p00/ex-v3-u01-1.mp3')">مُخْرَجَاتُ التَّعَلُّمِ</span><span class="ex-cn"> — 学习产出</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u01-2.mp3" onclick="playAudio('../audio/p00/ex-v3-u01-2.mp3')">تَقْوِيمُ الأَدَاءِ</span><span class="ex-cn"> — 表现评估</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u01-3.mp3" onclick="playAudio('../audio/p00/ex-v3-u01-3.mp3')">اسْتِرَاتِيجِيَّةُ التَّدْرِيسِ</span><span class="ex-cn"> — 教学策略</span></div></div>
+</section>
+
+
+
+<section class="section reading">
+<h2>📖 كيف نتعلم لغة جديدة؟</h2>
+<div class="reading-ar"><p>تعلم لغة جديدة هو رحلة فكرية ومعرفية غنية. عندما يبدأ الطالب في تعلم اللغة العربية، يواجه تحديات متعددة: من نظام الكتابة (الأبجدية العربية) إلى القواعد النحوية المعقدة، ومن المفردات الغنية إلى المهارات الأربع (الاستماع، القراءة، الكتابة، التحدث).
+
+هناك عدة مناهج لتعليم اللغة العربية لغير الناطقين بها. المنهج التقليدي يركز على القواعد والترجمة، حيث يتعلم الطالب القواعد أولاً ثم يطبقها. أما المنهج التواصلي فيركز على استخدام اللغة في مواقف حقيقية من البداية. والمنهج التكاملي يجمع بين الاثنين.
+
+من أهم مبادئ تعليم اللغة: التعرض المستمر للغة (Input)، والممارسة المنتظمة (Practice)، والتصحيح الفوري (Feedback)، والصبر والمثابرة. كما أن التعلم في بيئة اللغة نفسها (Immersion) يعتبر من أسرع الطرق.</p></div>
+<div class="reading-cn"><p>学习一门新的语言是一段丰富的认知之旅。当学生开始学习阿拉伯语时，面临多重挑战：从书写系统（阿拉伯字母）到复杂的语法规则，从丰富的词汇量到四项技能（听、说、读、写）。
+
+有多种针对非母语者的阿拉伯语教学法。传统方法侧重于语法和翻译，学生先学规则再应用。交际法则从一开始就注重真实情境中的语言使用。综合方法将两者结合。
+
+语言教学的核心原则包括：持续的语言接触（输入）、定期练习、及时纠正反馈、耐心坚持。此外，沉浸式学习（在目标语言环境中学习）被认为是最快的方式。</p></div>
+</section>
+<section class="section discussion">
+<h2>💬 Discussion Questions</h2>
+<ol class="dq-list"><li>ما المنهج الذي تفضله في تعليم اللغة ولماذا؟</li><li>هل تعتقد أن التعلم في بلد اللغة أفضل من التعلم في بلدك؟</li><li>ما أكبر التحديات التي واجهتها في تعلم العربية؟</li></ol>
+</section>
+<section class="section gtopics">
+<h2>📚 Grammar Topics</section>
+<div class="gtopic"><strong>高级语法：名词短语的结构层次:</strong> 阿拉伯语名词短语可以层层嵌套：مركز جامعة الملك سعود التي درس فيها أخي（我弟弟就读过的沙特国王大学的中心）。理解嵌套结构的关键是从内向外解析。</div><div class="gtopic"><strong>学术写作中的连接词:</strong> 学术论文常用：علاوة على ذلك（此外）、ومن جانب آخر（另一方面）、بناءً على ما سبق（基于上述）、يستنتج أن...（因此得出结论）</div>
+</section>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

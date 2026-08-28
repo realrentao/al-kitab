@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الحيوانات والأفعال | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/الحيوانات-والأفعال.mp3" onclick="playAudio('../audio/p02/الحيوانات-والأفعال.mp3')">الحيوانات والأفعال</span></h1>
+  <p style="color:#555;">第十三课：动物与动作</p>
+  <div class="tags"><span class="tag">حيوان</span><span class="tag">فعل</span><span class="tag">تصريف</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تسمّي الحيوانات</span> <span class="obj-cn">会说出动物名称</span></li><li><span class="ar-obj">أن تربط الفعل بالفاعل</span> <span class="obj-cn">会使动词与主语一致</span></li><li><span class="ar-obj">أن تستعمل الأفعال الناقصة</span> <span class="obj-cn">会用能愿动词</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">أب<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/يا-بني-ماذا-ترى-في-الصورة_m.mp3" onclick="playAudio('../audio/p05/يا-بني-ماذا-ترى-في-الصورة_m.mp3')">يا بني، ماذا ترى في الصورة؟</span></span></div>
+<div class="dlg-row"><span class="speaker">ابن<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أرى-حصانا-يجري-وجمالا-تشرب-الماء_m.mp3" onclick="playAudio('../audio/p02/أرى-حصانا-يجري-وجمالا-تشرب-الماء_m.mp3')">أرى حصاناً يجري، وجمالاً تشرب الماء.</span></span></div>
+<div class="dlg-row"><span class="speaker">أب<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/جيد-وماذا-يفعل-الأسد_m.mp3" onclick="playAudio('../audio/p03/جيد-وماذا-يفعل-الأسد_m.mp3')">جيد! وماذا يفعل الأسد؟</span></span></div>
+<div class="dlg-row"><span class="speaker">ابن<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/الأسد-ينام-تحت-الشجرة_m.mp3" onclick="playAudio('../audio/p02/الأسد-ينام-تحت-الشجرة_m.mp3')">الأسد ينام تحت الشجرة.</span></span></div>
+<div class="dlg-row"><span class="speaker">أب<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/والطيور_m.mp3" onclick="playAudio('../audio/p05/والطيور_m.mp3')">والطيور؟</span></span></div>
+<div class="dlg-row"><span class="speaker">ابن<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/الطيور-تطير-في-السماء_m.mp3" onclick="playAudio('../audio/p02/الطيور-تطير-في-السماء_m.mp3')">الطيور تطير في السماء.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l13-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l13-0.mp3')">فِي المَزْرَعَةِ قِطٌّ وَكَلْبٌ وَبَطَّةٌ.</span><div class="rd-cn">农场里有猫、狗和鸭。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l13-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l13-1.mp3')">القِطُّ يَنَامُ، وَالكَلْبُ يَرْكُضُ فِي الحَقْلِ.</span><div class="rd-cn">猫在睡，狗在田间跑。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l13-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l13-2.mp3')">البَطَّةُ تَسْبَحُ وَالعَصْفُورُ يُحَلِّقُ.</span><div class="rd-cn">鸭子在游，鸟在飞。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l13-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l13-3.mp3')">يَسْتَطِيعُ الحِصَانُ أَنْ يَجْرِيَ بِسُرْعَةٍ.</span><div class="rd-cn">马能跑得很快。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حصان.mp3" onclick="playAudio('../audio/p03/حصان.mp3')">حصان</span></td><td class="roman">ḥiṣān</td><td>马</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جمل.mp3" onclick="playAudio('../audio/p03/جمل.mp3')">جمل</span></td><td class="roman">jamal</td><td>骆驼</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بقرة.mp3" onclick="playAudio('../audio/p02/بقرة.mp3')">بقرة</span></td><td class="roman">baqara</td><td>牛</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خروف.mp3" onclick="playAudio('../audio/p03/خروف.mp3')">خروف</span></td><td class="roman">kharūf</td><td>羊</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/ماعز.mp3" onclick="playAudio('../audio/p04/ماعز.mp3')">ماعز</span></td><td class="roman">maʿiz</td><td>山羊</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أسد.mp3" onclick="playAudio('../audio/p02/أسد.mp3')">أسد</span></td><td class="roman">asad</td><td>狮子</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نمر.mp3" onclick="playAudio('../audio/p05/نمر.mp3')">نمر</span></td><td class="roman">nimr</td><td>豹/老虎</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/فيل.mp3" onclick="playAudio('../audio/p04/فيل.mp3')">فيل</span></td><td class="roman">fīl</td><td>大象</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قطة.mp3" onclick="playAudio('../audio/p04/قطة.mp3')">قطة</span></td><td class="roman">qiṭṭa</td><td>猫</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كلب.mp3" onclick="playAudio('../audio/p04/كلب.mp3')">كلب</span></td><td class="roman">kalb</td><td>狗</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/طائر-طيور.mp3" onclick="playAudio('../audio/p03/طائر-طيور.mp3')">طائر / طيور</span></td><td class="roman">ṭāʾir / ṭuyūr</td><td>鸟/鸟类</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سمك.mp3" onclick="playAudio('../audio/p03/سمك.mp3')">سمك</span></td><td class="roman">samak</td><td>鱼</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يجري.mp3" onclick="playAudio('../audio/p05/يجري.mp3')">يجري</span></td><td class="roman">yajrī</td><td>他跑</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يشرب.mp3" onclick="playAudio('../audio/p05/يشرب.mp3')">يشرب</span></td><td class="roman">yashrab</td><td>他喝</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/ينام.mp3" onclick="playAudio('../audio/p05/ينام.mp3')">ينام</span></td><td class="roman">yanām</td><td>他睡</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يطير.mp3" onclick="playAudio('../audio/p05/يطير.mp3')">يطير</span></td><td class="roman">yaṭīr</td><td>他飞</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يأكل.mp3" onclick="playAudio('../audio/p05/يأكل.mp3')">يأكل</span></td><td class="roman">yaʾkul</td><td>他吃</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يمشي.mp3" onclick="playAudio('../audio/p05/يمشي.mp3')">يمشي</span></td><td class="roman">yamshī</td><td>他走</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يقفز.mp3" onclick="playAudio('../audio/p05/يقفز.mp3')">يقفز</span></td><td class="roman">yaqfiz</td><td>他跳</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يجلس.mp3" onclick="playAudio('../audio/p05/يجلس.mp3')">يجلس</span></td><td class="roman">yajlis</td><td>他坐</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>及物动词 vs 不及物动词</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/أكل-الطعم.mp3" onclick="playAudio('../audio/p02/أكل-الطعم.mp3')">أَكَلَ الطَّعَمَ</span></td><td class="roman">akala ṭ-ṭaʿama</td><td>他吃了食物</td></tr><tr><td><span class="ar" data-audio="../audio/p03/جرى-الحصان.mp3" onclick="playAudio('../audio/p03/جرى-الحصان.mp3')">جَرَى الحِصَانُ</span></td><td class="roman">jarā l-ḥiṣānu</td><td>马跑了</td></tr></table><p class="gram-note">لازم（不及物）：يجري، ينام، يمشي</p><p class="gram-note">متعدي（及物）：يأكل، يشرب، يرى</p></div>
+<div class="gram-block"><h4>现在式动词变位（以 كَتَبَ 为例）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/أكتب.mp3" onclick="playAudio('../audio/p02/أكتب.mp3')">أَكْتُبُ</span></td><td class="roman">aktubu</td><td>我写</td></tr><tr><td><span class="ar" data-audio="../audio/p03/تكتب.mp3" onclick="playAudio('../audio/p03/تكتب.mp3')">تَكْتُبُ</span></td><td class="roman">taktubu</td><td>你（男）写</td></tr><tr><td><span class="ar" data-audio="../audio/p05/يكتب.mp3" onclick="playAudio('../audio/p05/يكتب.mp3')">يَكْتُبُ</span></td><td class="roman">yaktubu</td><td>他写</td></tr><tr><td><span class="ar" data-audio="../audio/p03/تكتب.mp3" onclick="playAudio('../audio/p03/تكتب.mp3')">تَكْتُبُ</span></td><td class="roman">taktubu</td><td>她写</td></tr><tr><td><span class="ar" data-audio="../audio/p05/نكتب.mp3" onclick="playAudio('../audio/p05/نكتب.mp3')">نَكْتُبُ</span></td><td class="roman">naktubu</td><td>我们写</td></tr><tr><td><span class="ar" data-audio="../audio/p03/تكتبون.mp3" onclick="playAudio('../audio/p03/تكتبون.mp3')">تَكْتُبُونَ</span></td><td class="roman">taktubūna</td><td>你们（男）写</td></tr><tr><td><span class="ar" data-audio="../audio/p05/يكتبون.mp3" onclick="playAudio('../audio/p05/يكتبون.mp3')">يَكْتُبُونَ</span></td><td class="roman">yaktubūna</td><td>他们写</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l13-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l13-0.mp3')">مَاذَا يَفْعَلُ هَذَا الحَيَوَانُ؟</span><span class="ex-cn"> — 这动物在做什么？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l13-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l13-1.mp3')">العَصْفُورُ يُحَلِّقُ</span><span class="ex-cn"> — 鸟在飞</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l13-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l13-2.mp3')">هَلْ تُحِبُّ القِطَطَ؟</span><span class="ex-cn"> — 你喜欢猫吗？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l13-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l13-3.mp3')">يَسْتَطِيعُ السِّبَاحَةَ</span><span class="ex-cn"> — 它会游泳</span></div></div>
+</section>
+
+<div class="culture-block"><p>动物在阿拉伯文化和《古兰经》中占有重要地位。马（حصان）在贝都因文化中象征着荣誉与自由，阿拉伯马是世界著名品种。骆驼（جمل）被称为「沙漠之舟」，是古代贸易路线的核心。猫在伊斯兰文化中是被允许饲养的宠物（先知穆罕默德喜爱猫），而狗主要用于牧羊和看护。猎鹰（صقر）训练是海湾地区的一项贵族传统运动。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

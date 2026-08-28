@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الأدب العربي الحديث | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتقدم</div>
+  <h1><span class="ar" data-audio="../audio/p02/الأدب-العربي-الحديث.mp3" onclick="playAudio('../audio/p02/الأدب-العربي-الحديث.mp3')">الأدب العربي الحديث</span></h1>
+  <p style="color:#555;">高级第九单元：现代阿拉伯文学</p>
+  <div class="tags"><span class="tag">أدب حديث</span><span class="tag">رواية</span><span class="tag">قصة قصيرة</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تحلل السرد الحديث</span> <span class="obj-cn">会分析现代叙事</span></li><li><span class="ar-obj">أن تفهم الرمز</span> <span class="obj-cn">会理解象征</span></li><li><span class="ar-obj">أن تقارن القديم بالحديث</span> <span class="obj-cn">会比较古今</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+
+</section>
+
+
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أدب-حديث.mp3" onclick="playAudio('../audio/p02/أدب-حديث.mp3')">أدب حديث</span></td><td class="roman">adab ḥadīth</td><td>现代文学</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نهضة.mp3" onclick="playAudio('../audio/p05/نهضة.mp3')">نهضة</span></td><td class="roman">nahḍa</td><td>复兴/文艺复兴</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رواية.mp3" onclick="playAudio('../audio/p03/رواية.mp3')">رواية</span></td><td class="roman">riwāya</td><td>小说</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قصة-قصيرة.mp3" onclick="playAudio('../audio/p04/قصة-قصيرة.mp3')">قصة قصيرة</span></td><td class="roman">qiṣṣa qaṣīra</td><td>短篇小说</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/شعر-حر.mp3" onclick="playAudio('../audio/p03/شعر-حر.mp3')">شعر حر</span></td><td class="roman">shiʿr ḥurr</td><td>自由体诗</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رمزية.mp3" onclick="playAudio('../audio/p03/رمزية.mp3')">رمزية</span></td><td class="roman">rumūziyya</td><td>象征主义</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/واقعية.mp3" onclick="playAudio('../audio/p05/واقعية.mp3')">واقعية</span></td><td class="roman">wāqiʿiyya</td><td>现实主义</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/الوجودية.mp3" onclick="playAudio('../audio/p02/الوجودية.mp3')">الوُجُودِيَّة</span></td><td class="roman">wujūdiyya</td><td>存在主义</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نقد-ذاتي.mp3" onclick="playAudio('../audio/p05/نقد-ذاتي.mp3')">نقد ذاتي</span></td><td class="roman">naqd dhātī</td><td>自省/内心独白</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/تجديد.mp3" onclick="playAudio('../audio/p02/تجديد.mp3')">تجديد</span></td><td class="roman">tajdīd</td><td>革新</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حداثة.mp3" onclick="playAudio('../audio/p03/حداثة.mp3')">حداثة</span></td><td class="roman">ḥadātha</td><td>现代主义</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/ما-بعد-الحداثة.mp3" onclick="playAudio('../audio/p04/ما-بعد-الحداثة.mp3')">ما بعد الحداثة</span></td><td class="roman">baʿda l-ḥadātha</td><td>后现代主义</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نجيب-محفوظ.mp3" onclick="playAudio('../audio/p05/نجيب-محفوظ.mp3')">نجيب محفوظ</span></td><td class="roman">Najīb Maḥfūẓ</td><td>纳吉布·马赫福兹</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/طه-حسين.mp3" onclick="playAudio('../audio/p04/طه-حسين.mp3')">طه حسين</span></td><td class="roman">Tāḥā Ḥusayn</td><td>塔哈·侯赛ين</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/غسان-كنفاني.mp3" onclick="playAudio('../audio/p04/غسان-كنفاني.mp3')">غسان كنفاني</span></td><td class="roman">Ghassā Kanafānī</td><td>加桑·卡纳法尼</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/محمود-درويش.mp3" onclick="playAudio('../audio/p04/محمود-درويش.mp3')">محمود درويش</span></td><td class="roman">Maḥmūd Darwīsh</td><td>马哈茂德·达尔维什</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نزار-قباني.mp3" onclick="playAudio('../audio/p05/نزار-قباني.mp3')">نزار قباني</span></td><td class="roman">Nizār Qabbānī</td><td>尼扎尔·卡巴尼</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أدونيس.mp3" onclick="playAudio('../audio/p02/أدونيس.mp3')">أدونيس</span></td><td class="roman">Adūnīs</td><td>阿多尼斯</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u09-0.mp3" onclick="playAudio('../audio/p00/ex-v3-u09-0.mp3')">تيَّارُ الوَعْيِ</span><span class="ex-cn"> — 意识流</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u09-1.mp3" onclick="playAudio('../audio/p00/ex-v3-u09-1.mp3')">الرَّمْزُ وَالتَّعْدِدِيَّةُ</span><span class="ex-cn"> — 象征与多声</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u09-2.mp3" onclick="playAudio('../audio/p00/ex-v3-u09-2.mp3')">سَرْدٌ لا مَرْكَزِيٌّ</span><span class="ex-cn"> — 去中心叙事</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u09-3.mp3" onclick="playAudio('../audio/p00/ex-v3-u09-3.mp3')">تَجْرِيبٌ أَدَبِيٌّ</span><span class="ex-cn"> — 文学实验</span></div></div>
+</section>
+
+
+
+<section class="section reading">
+<h2>📖 نهضة الرواية العربية: من فرنسا إلى القاهرة وبيروت</h2>
+<div class="reading-ar"><p>الأدب العربي الحديث بدأ مع النهضة العربية في القرن التاسع عشر. تأثر بالأدب الأوروبي (خاصة الفرنسي) ولكن طور هويته الخاصة.
+
+الرواية العربية: بدأت كترجمات ثم تطورت إلى إبداع أصيل. نجيب محفوظ (أول عربي يفوز بنوبل للآداب 1988) وروايته &#x27;أولاد حارتنا&#x27; و&#x27;ثلاثية القاهرة&#x27;. طه حسين (&#x27;الأيام&#x27;) ونجيب محفوظ وغسان كنفاني ويوسف إدريس ويوسف إدريس.
+
+القصة القصيرة: تطورت بسرعة في القرن العشرين. يوسف إدريس (&#x27;أكثر شيء&#x27;) ويحيى حقي و محمد_chديدي والغيطاني.
+
+الشعر الحديث (الشعر الحر): broke from traditional qasida form. نزار قباني (&#x27;قصيدة من أجلك&#x27;) وأدونيس (محمد أغا المبير) ومحمود درويش (شاعر فلسطين).</p></div>
+<div class="reading-cn"><p>现代阿拉伯文学始于19世纪的阿拉伯复兴运动。虽受欧洲文学（特别是法国文学）影响，但发展出了自身特色。
+
+阿拉伯小说：从翻译起步发展为原创创作。纳吉布·马赫福兹（1988年首位获诺贝尔文学奖的阿拉伯人）及其代表作《我们街区的孩子们》《开罗三部曲》。塔哈·侯赛因（《日子》）、加桑·卡纳法尼、尤素夫·伊德里斯。
+
+短篇小说：20世纪快速发展。尤素夫·伊德里斯（《最多的东西》）、叶海亚·哈基、穆罕默德·希迪德、加萨尼。
+
+现代诗歌（自由体诗）：打破传统 Qaṣīda 形式。尼扎尔·卡巴尼（《为你而作的诗》）、阿多尼斯（穆罕默德·阿吉尔·穆比尔）、马哈茂德·达尔维什（巴勒斯坦诗人）。</p></div>
+</section>
+<section class="section discussion">
+<h2>💬 Discussion Questions</h2>
+<ol class="dq-list"><li>هل الرواية العربية استطاعت أن تتجذر بعمق في الواقع العربي؟</li><li>قارن بين الشعر الحر والشعر التقليدي: أيهما أقدر على التعبير عن هموم الإنسان المعاصر؟</li><li>ما أثر الترجمة على الأدب العربي الحديث؟ إيجابياً أم سلبياً؟</li></ol>
+</section>
+<section class="section gtopics">
+<h2>📚 Grammar Topics</section>
+<div class="gtopic"><strong>现代文学语言的特点:</strong> 现代文学作品常混用 Fuṣḥā 和方言元素，创造出介于两者之间的「中间语体」（لغة وسطى）。这种语体更贴近日常口语但保持书面语的优雅</div><div class="gtopic"><strong>内心独白的语法:</strong> 意识流文学中常见省略主语、碎片化句子、思维跳跃等非常规语法——模仿真实思维的流动状态</div>
+</section>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

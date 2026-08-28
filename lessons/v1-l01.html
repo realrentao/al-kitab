@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>التحية والتعريف | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/التحية-والتعريف.mp3" onclick="playAudio('../audio/p02/التحية-والتعريف.mp3')">التحية والتعريف</span></h1>
+  <p style="color:#555;">第一课：问候与自我介绍</p>
+  <div class="tags"><span class="tag">مرحباً</span><span class="tag">أنا</span><span class="tag">من أين</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تستعمل تحيات التعارف والوداع</span> <span class="obj-cn">会使用问候与告别的表达</span></li><li><span class="ar-obj">أن تسأل عن الاسم والحال</span> <span class="obj-cn">会询问姓名与近况</span></li><li><span class="ar-obj">أن تقدم نفسك بأسلوب مهذب</span> <span class="obj-cn">能礼貌地自我介绍</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">أحمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/السلام-عليكم-ورحمة-الله-وبركاته_m.mp3" onclick="playAudio('../audio/p02/السلام-عليكم-ورحمة-الله-وبركاته_m.mp3')">السلام عليكم ورحمة الله وبركاته.</span></span></div>
+<div class="dlg-row"><span class="speaker">محمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/وعليكم-السلام-ورحمة-الله-وبركاته-كيف-حالك_m.mp3" onclick="playAudio('../audio/p05/وعليكم-السلام-ورحمة-الله-وبركاته-كيف-حالك_m.mp3')">وعليكم السلام ورحمة الله وبركاته. كيف حالك؟</span></span></div>
+<div class="dlg-row"><span class="speaker">أحمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/الحمد-لله-بخير-ما-اسمك_m.mp3" onclick="playAudio('../audio/p02/الحمد-لله-بخير-ما-اسمك_m.mp3')">الحمد لله، بخير. ما اسمك؟</span></span></div>
+<div class="dlg-row"><span class="speaker">محمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/اسمي-محمد-وأنت_m.mp3" onclick="playAudio('../audio/p02/اسمي-محمد-وأنت_m.mp3')">اسمي محمد. وأنت؟</span></span></div>
+<div class="dlg-row"><span class="speaker">أحمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أنا-أحمد-من-أين-أنت_m.mp3" onclick="playAudio('../audio/p02/أنا-أحمد-من-أين-أنت_m.mp3')">أنا أحمد. من أين أنت؟</span></span></div>
+<div class="dlg-row"><span class="speaker">محمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أنا-من-الصين-وأنت_m.mp3" onclick="playAudio('../audio/p02/أنا-من-الصين-وأنت_m.mp3')">أنا من الصين. وأنت؟</span></span></div>
+<div class="dlg-row"><span class="speaker">أحمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أنا-من-مصر-تشرفت-بلقائك_m.mp3" onclick="playAudio('../audio/p02/أنا-من-مصر-تشرفت-بلقائك_m.mp3')">أنا من مصر. تشرفت بلقائك.</span></span></div>
+<div class="dlg-row"><span class="speaker">محمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/تشرفت-أيضا-مع-السلامة_m.mp3" onclick="playAudio('../audio/p03/تشرفت-أيضا-مع-السلامة_m.mp3')">تشرفت أيضاً. مع السلامة.</span></span></div>
+<div class="dlg-row"><span class="speaker">أحمد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/مع-السلامة_m.mp3" onclick="playAudio('../audio/p04/مع-السلامة_m.mp3')">مع السلامة.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l01-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l01-0.mp3')">يَصِلُ طَالِبٌ جَدِيدٌ إِلَى المَعْهَدِ فِي الصَّبَاحِ.</span><div class="rd-cn">清晨，一名新生来到学院。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l01-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l01-1.mp3')">يُسَلِّمُ عَلَى زَمِيلِهِ وَيَقُولُ: السَّلَامُ عَلَيْكُمْ.</span><div class="rd-cn">他向同学道安说：祝你平安。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l01-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l01-2.mp3')">يَتَعَرَّفُ إِلَى الأَسَاتِذَةِ وَيَذْكُرُ اسْمَهُ وَبِلَادَهُ.</span><div class="rd-cn">他结识老师，并说出自己的名字与国度。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l01-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l01-3.mp3')">وَيَفْرَحُ الجَمِيعُ بِلِقَاءِ الأَصْدِقَاءِ فِي بَدْءِ السَّنَةِ.</span><div class="rd-cn">大家因在新年伊始与朋友相聚而欢喜。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/السلام-عليكم.mp3" onclick="playAudio('../audio/p02/السلام-عليكم.mp3')">السلام عليكم</span></td><td class="roman">as-salāmu ʿalaykum</td><td>祝你平安（问候语）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/وعليكم-السلام.mp3" onclick="playAudio('../audio/p05/وعليكم-السلام.mp3')">وعليكم السلام</span></td><td class="roman">wa-ʿalaykum as-salām</td><td>也祝你平安（回应）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كيف-حالك.mp3" onclick="playAudio('../audio/p04/كيف-حالك.mp3')">كيف حالك؟</span></td><td class="roman">kayfa ḥālak?</td><td>你好吗？/你怎么样？</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/الحمد-لله.mp3" onclick="playAudio('../audio/p02/الحمد-لله.mp3')">الحمد لله</span></td><td class="roman">al-ḥamdu lillāh</td><td>感谢真主（托赖）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بخير.mp3" onclick="playAudio('../audio/p02/بخير.mp3')">بخير</span></td><td class="roman">bi-khayr</td><td>很好/安好</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/ما-اسمك.mp3" onclick="playAudio('../audio/p04/ما-اسمك.mp3')">ما اسمك؟</span></td><td class="roman">mā ismuk?</td><td>你叫什么名字？</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/اسمي.mp3" onclick="playAudio('../audio/p02/اسمي.mp3')">اسمي</span></td><td class="roman">ismī</td><td>我的名字是……</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/من-أين-أنت.mp3" onclick="playAudio('../audio/p04/من-أين-أنت.mp3')">من أين أنت؟</span></td><td class="roman">min ayna anta?</td><td>你从哪里来？</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أنا-من.mp3" onclick="playAudio('../audio/p02/أنا-من.mp3')">أنا من...</span></td><td class="roman">anā min...</td><td>我来自……</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تشرفت.mp3" onclick="playAudio('../audio/p03/تشرفت.mp3')">تشرفت</span></td><td class="roman">tašarraftu</td><td>很高兴认识你</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مع-السلامة.mp3" onclick="playAudio('../audio/p04/مع-السلامة.mp3')">مع السلامة</span></td><td class="roman">maʿa as-salāma</td><td>再见/一路平安</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>人称代词（ضمائر）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/أنا.mp3" onclick="playAudio('../audio/p02/أنا.mp3')">أنا</span></td><td class="roman">anā</td><td>我</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أنت.mp3" onclick="playAudio('../audio/p02/أنت.mp3')">أنتَ</span></td><td class="roman">anta</td><td>你（男）</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أنت.mp3" onclick="playAudio('../audio/p02/أنت.mp3')">أنتِ</span></td><td class="roman">anti</td><td>你（女）</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هو.mp3" onclick="playAudio('../audio/p05/هو.mp3')">هو</span></td><td class="roman">huwa</td><td>他</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هي.mp3" onclick="playAudio('../audio/p05/هي.mp3')">هي</span></td><td class="roman">hiya</td><td>她</td></tr><tr><td><span class="ar" data-audio="../audio/p05/نحن.mp3" onclick="playAudio('../audio/p05/نحن.mp3')">نحن</span></td><td class="roman">naḥnu</td><td>我们</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أنتم.mp3" onclick="playAudio('../audio/p02/أنتم.mp3')">أنتم</span></td><td class="roman">antum</td><td>你们（男/混合）</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أنتن.mp3" onclick="playAudio('../audio/p02/أنتن.mp3')">أنتنّ</span></td><td class="roman">antunna</td><td>你们（女）</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هم.mp3" onclick="playAudio('../audio/p05/هم.mp3')">هم</span></td><td class="roman">hum</td><td>他们</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هن.mp3" onclick="playAudio('../audio/p05/هن.mp3')">هنّ</span></td><td class="roman">hunna</td><td>她们</td></tr></table></div>
+<div class="gram-block"><h4>疑问词（أدوات الاستفهام）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p04/من.mp3" onclick="playAudio('../audio/p04/من.mp3')">مَن؟</span></td><td class="roman">man?</td><td>谁？</td></tr><tr><td><span class="ar" data-audio="../audio/p04/ما-ماهذا.mp3" onclick="playAudio('../audio/p04/ما-ماهذا.mp3')">مَا؟ / مَاهذا؟</span></td><td class="roman">mā? / mā hāḏā?</td><td>什么？/这是什么？</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أين.mp3" onclick="playAudio('../audio/p02/أين.mp3')">أين؟</span></td><td class="roman">ayna?</td><td>哪里？</td></tr><tr><td><span class="ar" data-audio="../audio/p04/كيف.mp3" onclick="playAudio('../audio/p04/كيف.mp3')">كيف؟</span></td><td class="roman">kayfa?</td><td>怎样？/如何？</td></tr><tr><td><span class="ar" data-audio="../audio/p04/متى.mp3" onclick="playAudio('../audio/p04/متى.mp3')">متى؟</span></td><td class="roman">matā?</td><td>什么时候？</td></tr><tr><td><span class="ar" data-audio="../audio/p04/لماذا.mp3" onclick="playAudio('../audio/p04/لماذا.mp3')">لِمَاذَا؟</span></td><td class="roman">li-māḏā?</td><td>为什么？</td></tr><tr><td><span class="ar" data-audio="../audio/p04/كم.mp3" onclick="playAudio('../audio/p04/كم.mp3')">كَمْ؟</span></td><td class="roman">kam?</td><td>多少？</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l01-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l01-0.mp3')">أهلاً وسهلاً بك</span><span class="ex-cn"> — 欢迎你到来</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l01-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l01-1.mp3')">تشرفتُ بلقائك</span><span class="ex-cn"> — 很高兴见到你</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l01-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l01-2.mp3')">كيف حالُكَ اليومَ؟</span><span class="ex-cn"> — 你今天好吗？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l01-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l01-3.mp3')">إِلَى اللِّقَاءِ</span><span class="ex-cn"> — 后会有期</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯世界最常用的问候语是「السلام عليكم」（祝你平安），源自伊斯兰传统。回答时说「وعليكم السلام」（也祝你平安）。随后常接「كيف حالك？」（你好吗？）。在正式场合，年长者或受尊敬者先伸手问候。握手时用右手，眼神接触表示尊重。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

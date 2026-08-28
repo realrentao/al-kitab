@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>تحليل النصوص الإعلامية | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتقدم</div>
+  <h1><span class="ar" data-audio="../audio/p02/تحليل-النصوص-الإعلامية.mp3" onclick="playAudio('../audio/p02/تحليل-النصوص-الإعلامية.mp3')">تحليل النصوص الإعلامية</span></h1>
+  <p style="color:#555;">高级第三单元：媒体文本分析</p>
+  <div class="tags"><span class="tag">إعلام</span><span class="tag">تحليل</span><span class="tag">نقد</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تحلل الخطاب</span> <span class="obj-cn">会分析话语</span></li><li><span class="ar-obj">أن تميّز الدلالة</span> <span class="obj-cn">能辨别意指</span></li><li><span class="ar-obj">أن تنقل القول</span> <span class="obj-cn">会转述言说</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+
+</section>
+
+
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/تحليل-نص.mp3" onclick="playAudio('../audio/p02/تحليل-نص.mp3')">تحليل نص</span></td><td class="roman">taḥlīl naṣ</td><td>文本分析</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نقد.mp3" onclick="playAudio('../audio/p05/نقد.mp3')">نقد</span></td><td class="roman">naqd</td><td>批评/评论</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خطاب.mp3" onclick="playAudio('../audio/p03/خطاب.mp3')">خطاب</span></td><td class="roman">khiṭāb</td><td>话语/演讲</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سرد.mp3" onclick="playAudio('../audio/p03/سرد.mp3')">سرد</span></td><td class="roman">sard</td><td>叙述</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إقناع.mp3" onclick="playAudio('../audio/p02/إقناع.mp3')">إقناع</span></td><td class="roman">iqnāʿ</td><td>说服</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/دعاية.mp3" onclick="playAudio('../audio/p03/دعاية.mp3')">دعاية</span></td><td class="roman">daʿwāya</td><td>宣传</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/تحيز.mp3" onclick="playAudio('../audio/p02/تحيز.mp3')">تحيز</span></td><td class="roman">taḥayyuz</td><td>偏见</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/موضوعية.mp3" onclick="playAudio('../audio/p04/موضوعية.mp3')">موضوعية</span></td><td class="roman">mawḍūʿiyya</td><td>客观性</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مصداقية.mp3" onclick="playAudio('../audio/p04/مصداقية.mp3')">مصداقية</span></td><td class="roman">ṣidiqāqiyya</td><td>可信度</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رأي-عام.mp3" onclick="playAudio('../audio/p03/رأي-عام.mp3')">رأي عام</span></td><td class="roman">raʾy ʿāmm</td><td>舆论</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/استطلاع.mp3" onclick="playAudio('../audio/p02/استطلاع.mp3')">استطلاع</span></td><td class="roman">istidlāʿ</td><td>民意调查</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تغطية.mp3" onclick="playAudio('../audio/p03/تغطية.mp3')">تغطية</span></td><td class="roman">taḥqiyya</td><td>报道/覆盖</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حصرية.mp3" onclick="playAudio('../audio/p03/حصرية.mp3')">حصرية</span></td><td class="roman">ḥaṣriyya</td><td>独家/专访</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تعليق.mp3" onclick="playAudio('../audio/p03/تعليق.mp3')">تعليق</span></td><td class="roman">taʿlīq</td><td>评论/评注</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/افتتاحية.mp3" onclick="playAudio('../audio/p02/افتتاحية.mp3')">افتتاحية</span></td><td class="roman">iftitāḥiyya</td><td>社论</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عمود.mp3" onclick="playAudio('../audio/p04/عمود.mp3')">عمود</span></td><td class="roman">ʿamūd</td><td>专栏</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تقرير-تحقيقي.mp3" onclick="playAudio('../audio/p03/تقرير-تحقيقي.mp3')">تقرير تحقيقي</span></td><td class="roman">taqrīr taḥqīqī</td><td>调查报告</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u03-0.mp3" onclick="playAudio('../audio/p00/ex-v3-u03-0.mp3')">تَحْلِيلُ الخِطَابِ</span><span class="ex-cn"> — 话语分析</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u03-1.mp3" onclick="playAudio('../audio/p00/ex-v3-u03-1.mp3')">دَلَالَةٌ رَمْزِيَّةٌ</span><span class="ex-cn"> — 象征意指</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u03-2.mp3" onclick="playAudio('../audio/p00/ex-v3-u03-2.mp3')">حَسَبَ مَا وَرَدَ</span><span class="ex-cn"> — 据所载</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u03-3.mp3" onclick="playAudio('../audio/p00/ex-v3-u03-3.mp3')">مَرْكَزُ وَهَامِشُ</span><span class="ex-cn"> — 中心与边缘</span></div></div>
+</section>
+
+
+
+<section class="section reading">
+<h2>📖 لغة الإعلام العربي: خصائص وتحديات</h2>
+<div class="reading-ar"><p>لغة الإعلام العربي تمثل نوعاً خاصاً من الاستخدام اللغوي. فهي تجمع بين الفصحى (اللغة الرسمية) وبعض عناصر العامية (اللهجات)، وتستخدم مصطلحات متخصصة في السياسة والاقتصاد.
+
+من خصائص لغة الإعلام: الاختصار (بسبب مساحة الصحيفة أو وقت النشرة)، واستخدام العناوين الجاذبية، والميل إلى استخدام الأفعال المضارعة للتعبير عن الحدوث الفوري، والاعتماد على المصادر الرسمية في الاقتباس.
+
+التحديات التي تواجه الإعلام العربي تشمل: تعدد اللهجات (ما يجعل لغة إعلام موحدة صعبة)، وضعف حرية الصحافة في بعض الدول، وهيمنة اللغات الأجنبية (خاصة الإنجليزية والفرنسية) على المصطلحات العلمية والتقنية.</p></div>
+<div class="reading-cn"><p>阿拉伯媒体语言代表着一种特殊的语言使用类型。它融合了标准语（官方语言）和某些方言元素，使用政治和经济领域的专业术语。
+
+媒体语言的特点包括：简练（由于报纸版面或新闻时段的限制）、使用吸引人的标题、倾向使用现在式动词表达即时发生的事件、依赖官方来源进行引用。
+
+阿拉伯媒体面临的挑战包括：方言多样性（使统一媒体语言变得困难）、部分国家新闻自由度受限、外语（尤其是英语和法语）对科学和技术术语的主导。</p></div>
+</section>
+<section class="section discussion">
+<h2>💬 Discussion Questions</h2>
+<ol class="dq-list"><li>هل الإعلام العربي موضوعي أم متحيز؟ أعطِ أمثلة.</li><li>كيف أثرت وسائل التواصل الاجتماعي على لغة الإعلام العربي؟</li><li>ما الفرق بين لغة الإعلام الفصحى ولغة الإعلام اللهجي؟</li></ol>
+</section>
+<section class="section gtopics">
+<h2>📚 Grammar Topics</section>
+<div class="gtopic"><strong>媒体标题的省略语法:</strong> 标题经常省略动词或助词：«وفيات شهيرة»（名人逝世）= «تتلقى وفيات شهيرة»。«اجتماع طارئ»（紧急会议）= «عُقد اجتماع طارئ»</div><div class="gtopic"><strong>转述动词的支配模式:</strong> 每个转述动词有不同的支配模式：أكّدَ أنَّ（确认that）、أعلنَ عن（宣布about）、صرّحَ بـ（声明with）、حذّرَ من（警告against）</div>
+</section>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

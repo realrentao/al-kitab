@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>العائلة | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/العائلة.mp3" onclick="playAudio('../audio/p02/العائلة.mp3')">العائلة</span></h1>
+  <p style="color:#555;">第三课：家庭与亲属</p>
+  <div class="tags"><span class="tag">الأب</span><span class="tag">الأم</span><span class="tag">الإضافة</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تعدّ أفراد العائلة</span> <span class="obj-cn">会数家庭成员</span></li><li><span class="ar-obj">أن تستعمل الإضافة للملكية</span> <span class="obj-cn">会用附属结构表所属</span></li><li><span class="ar-obj">أن تميّز المذكر من المؤنث</span> <span class="obj-cn">能区分阳性与阴性</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">خالد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/هل-عندك-إخوة_m.mp3" onclick="playAudio('../audio/p05/هل-عندك-إخوة_m.mp3')">هل عندك إخوة؟</span></span></div>
+<div class="dlg-row"><span class="speaker">نورة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p05/نعم-عندي-أخ-وأختان_f.mp3" onclick="playAudio('../audio/p05/نعم-عندي-أخ-وأختان_f.mp3')">نعم، عندي أخ وأختان.</span></span></div>
+<div class="dlg-row"><span class="speaker">خالد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/ما-أسماؤهم_m.mp3" onclick="playAudio('../audio/p04/ما-أسماؤهم_m.mp3')">ما أسماؤهم؟</span></span></div>
+<div class="dlg-row"><span class="speaker">نورة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p02/اسم-أخي-أحمد-وأسماء-أخواتي-فاطمة-ومريم_f.mp3" onclick="playAudio('../audio/p02/اسم-أخي-أحمد-وأسماء-أخواتي-فاطمة-ومريم_f.mp3')">اسم أخي أحمد، وأسماء أخواتي فاطمة ومريم.</span></span></div>
+<div class="dlg-row"><span class="speaker">خالد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/كم-عدد-أفراد-عائلتك_m.mp3" onclick="playAudio('../audio/p04/كم-عدد-أفراد-عائلتك_m.mp3')">كم عدد أفراد عائلتك؟</span></span></div>
+<div class="dlg-row"><span class="speaker">نورة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p04/عائلتي-تتكون-من-ستة-أشخاص-أبي-وأمي-وأخي-وأختاي-وأ_f.mp3" onclick="playAudio('../audio/p04/عائلتي-تتكون-من-ستة-أشخاص-أبي-وأمي-وأخي-وأختاي-وأ_f.mp3')">عائلتي تتكون من ستة أشخاص: أبي وأمي وأخي وأختاي وأنا.</span></span></div>
+<div class="dlg-row"><span class="speaker">خالد<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أين-يعمل-أبوك_m.mp3" onclick="playAudio('../audio/p02/أين-يعمل-أبوك_m.mp3')">أين يعمل أبوك؟</span></span></div>
+<div class="dlg-row"><span class="speaker">نورة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أبي-مهندس-وأمي-معلمة_f.mp3" onclick="playAudio('../audio/p02/أبي-مهندس-وأمي-معلمة_f.mp3')">أبي مهندس، وأمي معلمة.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l03-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l03-0.mp3')">عَائِلَتِي صَغِيرَةٌ وَدَافِئَةٌ.</span><div class="rd-cn">我的家小而温暖。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l03-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l03-1.mp3')">أَبِي مُهَنْدِسٌ وَأُمِّي مُعَلِّمَةٌ.</span><div class="rd-cn">父亲是工程师，母亲是教师。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l03-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l03-2.mp3')">لَدَيَّ أَخٌ وَأُخْتَانِ، وَهُمَا طَالِبَتَانِ.</span><div class="rd-cn">我有一个兄弟和两个姐妹，她们是在校学生。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l03-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l03-3.mp3')">نَجْتَمِعُ كُلَّ مَسَاءٍ حَوْلَ مَائِدَةِ العَشَاءِ.</span><div class="rd-cn">每晚我们围坐在餐桌旁相聚。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p01/أب-أبوان.mp3" onclick="playAudio('../audio/p01/أب-أبوان.mp3')">أب / أبوان</span></td><td class="roman">ab / abawān</td><td>父亲 / 父母（双）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أم-أمهات.mp3" onclick="playAudio('../audio/p02/أم-أمهات.mp3')">أم / أمّهات</span></td><td class="roman">umm / ummahāt</td><td>母亲 / 母亲们</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أخ-إخوة.mp3" onclick="playAudio('../audio/p02/أخ-إخوة.mp3')">أخ / إخوة</span></td><td class="roman">akh / ikhwa</td><td>兄弟 / 兄弟姐妹们</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أخت-أخوات.mp3" onclick="playAudio('../audio/p02/أخت-أخوات.mp3')">أخت / أخوات</span></td><td class="roman">ukht / akhwāt</td><td>姐妹 / 姐妹们</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جد-جدة.mp3" onclick="playAudio('../audio/p03/جد-جدة.mp3')">جد / جدة</span></td><td class="roman">jadd / jadda</td><td>祖父/外祖父 / 祖母/外祖母</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عم-عمة.mp3" onclick="playAudio('../audio/p04/عم-عمة.mp3')">عم / عمّة</span></td><td class="roman">ʿamm / ʿamma</td><td>伯父/叔父 / 伯母/叔母</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خال-خالة.mp3" onclick="playAudio('../audio/p03/خال-خالة.mp3')">خال / خالة</span></td><td class="roman">khāl / khāla</td><td>舅父/姨父 / 舅母/姨母</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ابن-ابنة.mp3" onclick="playAudio('../audio/p02/ابن-ابنة.mp3')">ابن / ابنة</span></td><td class="roman">ibn / bint</td><td>儿子 / 女儿</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/زوج-زوجة.mp3" onclick="playAudio('../audio/p03/زوج-زوجة.mp3')">زوج / زوجة</span></td><td class="roman">zawj / zawja</td><td>丈夫 / 妻子</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عائلة.mp3" onclick="playAudio('../audio/p04/عائلة.mp3')">عائلة</span></td><td class="roman">ʿā&#x27;ila</td><td>家庭</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/فرد.mp3" onclick="playAudio('../audio/p04/فرد.mp3')">فرد</span></td><td class="roman">fard</td><td>成员/个人</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مهندس.mp3" onclick="playAudio('../audio/p04/مهندس.mp3')">مهندس</span></td><td class="roman">muhandis</td><td>工程师</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/معلم-معلمة.mp3" onclick="playAudio('../audio/p04/معلم-معلمة.mp3')">معلّم / معلّمة</span></td><td class="roman">muʿallim / muʿallima</td><td>教师（男/女）</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>正偏组合（الإضافة）— 名词属格结构</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p04/كتاب-الطالب.mp3" onclick="playAudio('../audio/p04/كتاب-الطالب.mp3')">كتابُ الطالبِ</span></td><td class="roman">kitābu ṭ-ṭālibi</td><td>学生的书</td></tr><tr><td><span class="ar" data-audio="../audio/p02/بيت-الأستاذ.mp3" onclick="playAudio('../audio/p02/بيت-الأستاذ.mp3')">بيتُ الأستاذِ</span></td><td class="roman">baytu al-ustāḍi</td><td>教授的房子</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أبو-خالد.mp3" onclick="playAudio('../audio/p02/أبو-خالد.mp3')">أبو خالدٍ</span></td><td class="roman">Abū Khālidin</td><td>哈立德之父</td></tr></table></div>
+<div class="gram-block"><h4>数字 1–6（الأرقام）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p05/واحد-واحدة.mp3" onclick="playAudio('../audio/p05/واحد-واحدة.mp3')">واحد / واحدة</span></td><td class="roman">wāḥid / wāḥida</td><td>一</td></tr><tr><td><span class="ar" data-audio="../audio/p02/اثنان-اثنتان.mp3" onclick="playAudio('../audio/p02/اثنان-اثنتان.mp3')">اثنان / اثنتان</span></td><td class="roman">ithnān / ithnatān</td><td>二</td></tr><tr><td><span class="ar" data-audio="../audio/p03/ثلاثة-ثلاث.mp3" onclick="playAudio('../audio/p03/ثلاثة-ثلاث.mp3')">ثلاثة / ثلاث</span></td><td class="roman">thalātha / thalāth</td><td>三</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أربعة-أربع.mp3" onclick="playAudio('../audio/p02/أربعة-أربع.mp3')">أربعة / أربع</span></td><td class="roman">arbaʿa / arbaʿ</td><td>四</td></tr><tr><td><span class="ar" data-audio="../audio/p03/خمسة-خمس.mp3" onclick="playAudio('../audio/p03/خمسة-خمس.mp3')">خمسة / خمس</span></td><td class="roman">khamsa / khams</td><td>五</td></tr><tr><td><span class="ar" data-audio="../audio/p03/ستة-ست.mp3" onclick="playAudio('../audio/p03/ستة-ست.mp3')">ستة / ست</span></td><td class="roman">sitta / sitt</td><td>六</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l03-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l03-0.mp3')">كَمْ عَدَدُ أَفْرَادِ عَائِلَتِكَ؟</span><span class="ex-cn"> — 你家有几口人？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l03-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l03-1.mp3')">بَيْتُ جَدِّي كَبِيرٌ</span><span class="ex-cn"> — 祖父的房子很大</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l03-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l03-2.mp3')">هَذِهِ صُورَةُ أُسْرَتِنَا</span><span class="ex-cn"> — 这是我们家的照片</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l03-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l03-3.mp3')">أُحِبُّ عَائِلَتِي</span><span class="ex-cn"> — 我爱我的家人</span></div></div>
+</section>
+
+<div class="culture-block"><p>在阿拉伯文化中，家庭是社会的基本单位。大家庭（العائلة الممتدة）通常包括祖父母、父母、子女，有时还有未婚的叔叔阿姨同住。尊重长辈是核心价值观：称呼长辈时使用尊称（如 أبو فلان &#x27;某人之父&#x27;），年轻人起立迎接长辈入座。家族聚会通常在周五中午或开斋节期间举行。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

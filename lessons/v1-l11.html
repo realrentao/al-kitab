@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>التسوق | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/التسوق.mp3" onclick="playAudio('../audio/p02/التسوق.mp3')">التسوق</span></h1>
+  <p style="color:#555;">第十一课：购物</p>
+  <div class="tags"><span class="tag">سوق</span><span class="tag">شراء</span><span class="tag">سعر</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تدخل السوق وتسأل</span> <span class="obj-cn">会进入市场询问</span></li><li><span class="ar-obj">أن تفاوض الثمن</span> <span class="obj-cn">会讨价还价</span></li><li><span class="ar-obj">أن تستعمل النفي (لا/ما/ليس)</span> <span class="obj-cn">会用否定词</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">زبونة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أريد-شراء-فستان-جديد_f.mp3" onclick="playAudio('../audio/p02/أريد-شراء-فستان-جديد_f.mp3')">أريد شراء فستان جديد.</span></span></div>
+<div class="dlg-row"><span class="speaker">بائعة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p03/تفضلي-هذا-فستان-جميل-ولونه-أزرق_f.mp3" onclick="playAudio('../audio/p03/تفضلي-هذا-فستان-جميل-ولونه-أزرق_f.mp3')">تفضلي، هذا فستان جميل ولونه أزرق.</span></span></div>
+<div class="dlg-row"><span class="speaker">زبونة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p05/هل-لديك-منه-باللون-الأحمر_f.mp3" onclick="playAudio('../audio/p05/هل-لديك-منه-باللون-الأحمر_f.mp3')">هل لديك منه باللون الأحمر؟</span></span></div>
+<div class="dlg-row"><span class="speaker">بائعة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p05/نعم-هذا-فستان-أحمر-بنفس-المقاس_f.mp3" onclick="playAudio('../audio/p05/نعم-هذا-فستان-أحمر-بنفس-المقاس_f.mp3')">نعم، هذا فستان أحمر بنفس المقاس.</span></span></div>
+<div class="dlg-row"><span class="speaker">زبونة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p04/كم-ثمنه_f.mp3" onclick="playAudio('../audio/p04/كم-ثمنه_f.mp3')">كم ثمنه؟</span></span></div>
+<div class="dlg-row"><span class="speaker">بائعة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p03/ثمنه-مائتان-وخمسون-ريالا_f.mp3" onclick="playAudio('../audio/p03/ثمنه-مائتان-وخمسون-ريالا_f.mp3')">ثمنه مائتان وخمسون ريالاً.</span></span></div>
+<div class="dlg-row"><span class="speaker">زبونة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p05/هل-يمكنني-أن-أدفع-بالبطاقة_f.mp3" onclick="playAudio('../audio/p05/هل-يمكنني-أن-أدفع-بالبطاقة_f.mp3')">هل يمكنني أن أدفع بالبطاقة؟</span></span></div>
+<div class="dlg-row"><span class="speaker">بائعة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p05/نعم-بالطبع_f.mp3" onclick="playAudio('../audio/p05/نعم-بالطبع_f.mp3')">نعم، بالطبع.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l11-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l11-0.mp3')">ذَهَبْتُ إِلَى السُّوقِ لِأَشْتَرِيَ هَدِيَّةً.</span><div class="rd-cn">我去市场买一件礼物。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l11-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l11-1.mp3')">سَأَلْتُ البَائِعَ: بِكَمْ هَذَا القَمِيصُ؟</span><div class="rd-cn">我问商贩：这件衬衫多少钱？</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l11-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l11-2.mp3')">قَالَ: عَشَرَةُ دَرَاهِمَ، فَقُلْتُ: هَذَا غَالٍ!</span><div class="rd-cn">他说：十迪拉姆，我说：这太贵了！</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l11-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l11-3.mp3')">لَمْ أَشْتَرِ شَيْئًا لِأَنِّي لَمْ أَجِدْ الثَّمَنَ المُنَاسِبَ.</span><div class="rd-cn">我什么也没买，因为没找到合适的价格。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سوق.mp3" onclick="playAudio('../audio/p03/سوق.mp3')">سوق</span></td><td class="roman">sūq</td><td>市场</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/محل.mp3" onclick="playAudio('../audio/p04/محل.mp3')">محل</span></td><td class="roman">maḥall</td><td>商店</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/شراء-اشترى.mp3" onclick="playAudio('../audio/p03/شراء-اشترى.mp3')">شراء / اشترى</span></td><td class="roman">shirāʾ / ishtarā</td><td>购买 / 他买了</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/باع-يبيع.mp3" onclick="playAudio('../audio/p02/باع-يبيع.mp3')">باع / يبيع</span></td><td class="roman">bāʿa / yabīʿ</td><td>卖 / 他卖</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/غالي-غال.mp3" onclick="playAudio('../audio/p04/غالي-غال.mp3')">غالي / غالٍ</span></td><td class="roman">ghālī / ghālin</td><td>贵的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رخيص-رخيص.mp3" onclick="playAudio('../audio/p03/رخيص-رخيص.mp3')">رخيص / رخيص</span></td><td class="roman">rakhīṣ / rakhīṣ</td><td>便宜的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مقاس-حجم.mp3" onclick="playAudio('../audio/p04/مقاس-حجم.mp3')">مقاس / حجم</span></td><td class="roman">miqās / ḥajm</td><td>尺码/大小</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/صغير-كبير.mp3" onclick="playAudio('../audio/p03/صغير-كبير.mp3')">صغير / كبير</span></td><td class="roman">ṣaghīr / kabīr</td><td>小的/大的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/فستان.mp3" onclick="playAudio('../audio/p04/فستان.mp3')">فستان</span></td><td class="roman">fustān</td><td>连衣裙</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قميص.mp3" onclick="playAudio('../audio/p04/قميص.mp3')">قميص</span></td><td class="roman">qamīṣ</td><td>衬衫</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بنطلون-سروال.mp3" onclick="playAudio('../audio/p02/بنطلون-سروال.mp3')">بنطلون / سروال</span></td><td class="roman">banṭalūn / sarwāl</td><td>裤子</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حذاء.mp3" onclick="playAudio('../audio/p03/حذاء.mp3')">حذاء</span></td><td class="roman">ḥidhāʾ</td><td>鞋子</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بطاقة.mp3" onclick="playAudio('../audio/p02/بطاقة.mp3')">بطاقة</span></td><td class="roman">biṭāqa</td><td>卡（银行卡）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نقود.mp3" onclick="playAudio('../audio/p05/نقود.mp3')">نقود</span></td><td class="roman">nuqūd</td><td>现金</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خصم.mp3" onclick="playAudio('../audio/p03/خصم.mp3')">خصم</span></td><td class="roman">khaṣm</td><td>折扣</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/فاتورة.mp3" onclick="playAudio('../audio/p04/فاتورة.mp3')">فاتورة</span></td><td class="roman">fātūra</td><td>发票/收据</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>「有吗？」句型（طلب）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p05/هل-لديك-.mp3" onclick="playAudio('../audio/p05/هل-لديك-.mp3')">هَلْ لَدَيْكَ ...؟</span></td><td class="roman">hal ladayka ...?</td><td>你有……吗？</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هل-عندكم-.mp3" onclick="playAudio('../audio/p05/هل-عندكم-.mp3')">هَلْ عِنْدَكُمْ ...؟</span></td><td class="roman">hal ʿindakum ...?</td><td>你们有……吗？</td></tr></table></div>
+<div class="gram-block"><h4>支付方式</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/أدفع-نقدا.mp3" onclick="playAudio('../audio/p02/أدفع-نقدا.mp3')">أَدْفَعُ نَقْدًا</span></td><td class="roman">adfʿu naqdan</td><td>我付现金</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أدفع-بالبطاقة.mp3" onclick="playAudio('../audio/p02/أدفع-بالبطاقة.mp3')">أَدْفَعُ بِالْبِطَاقَةِ</span></td><td class="roman">adfʿu bi-l-biṭāqati</td><td>我用卡付</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l11-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l11-0.mp3')">هَلْ مِنْ تَخْفِيضٍ؟</span><span class="ex-cn"> — 有折扣吗？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l11-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l11-1.mp3')">هَذَا أَغْلَى مِنَ المُتَوَقَّعِ</span><span class="ex-cn"> — 这比预期贵</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l11-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l11-2.mp3')">لَيْسَ عِنْدِي نُقُودٌ كَافِيَةٌ</span><span class="ex-cn"> — 我的钱不够</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l11-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l11-3.mp3')">سَأَفْكِرُ ثُمَّ أَعُودُ</span><span class="ex-cn"> — 我想想再回来</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯世界的传统市场（سوق / Souk）是购物和文化体验的中心。著名的集市包括迪拜黄金市场（سوق الذهب）、马拉喀什露天市场（سوق المرتب）、伊斯坦布尔大巴扎等。在这些市场中讨价还价（مساومة）是常态。现代购物中心在城市中也十分普遍。大多数商店接受现金和信用卡，但小型市场摊位可能只收现金。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

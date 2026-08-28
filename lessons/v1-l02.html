@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>التعارف | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/التعارف.mp3" onclick="playAudio('../audio/p02/التعارف.mp3')">التعارف</span></h1>
+  <p style="color:#555;">第二课：结识与国籍</p>
+  <div class="tags"><span class="tag">الجنسية</span><span class="tag">اللغة</span><span class="tag">العمل</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تَصِفَ صَدِيقَكَ وَجِنْسِيَّتَهُ</span> <span class="obj-cn">会描述朋友及其性别</span></li><li><span class="ar-obj">أن تسأل عن الجنسية واللغة</span> <span class="obj-cn">会询问国籍与语言</span></li><li><span class="ar-obj">أن تستعمل أسماء الإشارة</span> <span class="obj-cn">会使用指示代词</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">فاطمة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p04/مرحبا-أنا-فاطمة-هذه-صديقتي-سارة_f.mp3" onclick="playAudio('../audio/p04/مرحبا-أنا-فاطمة-هذه-صديقتي-سارة_f.mp3')">مرحباً! أنا فاطمة. هذه صديقتي سارة.</span></span></div>
+<div class="dlg-row"><span class="speaker">علي<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أهلا-وسهلا-أنا-علي-من-أي-بلد-أنتما_m.mp3" onclick="playAudio('../audio/p02/أهلا-وسهلا-أنا-علي-من-أي-بلد-أنتما_m.mp3')">أهلاً وسهلاً! أنا علي. من أي بلد أنتما؟</span></span></div>
+<div class="dlg-row"><span class="speaker">فاطمة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أنا-من-السعودية-وسارة-من-الإمارات_f.mp3" onclick="playAudio('../audio/p02/أنا-من-السعودية-وسارة-من-الإمارات_f.mp3')">أنا من السعودية، وسارة من الإمارات.</span></span></div>
+<div class="dlg-row"><span class="speaker">علي<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/جميل-ما-لغتكما-الأم_m.mp3" onclick="playAudio('../audio/p03/جميل-ما-لغتكما-الأم_m.mp3')">جميل! ما لغتكما الأم؟</span></span></div>
+<div class="dlg-row"><span class="speaker">سارة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p04/لغتي-الأم-هي-العربية-وأنت_f.mp3" onclick="playAudio('../audio/p04/لغتي-الأم-هي-العربية-وأنت_f.mp3')">لغتي الأم هي العربية. وأنت؟</span></span></div>
+<div class="dlg-row"><span class="speaker">علي<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/لغتي-الأم-هي-العربية-أيضا-لكنني-أعلم-الإنجليزية_m.mp3" onclick="playAudio('../audio/p04/لغتي-الأم-هي-العربية-أيضا-لكنني-أعلم-الإنجليزية_m.mp3')">لغتي الأم هي العربية أيضاً، لكنني أعلم الإنجليزية والفرنسية.</span></span></div>
+<div class="dlg-row"><span class="speaker">فاطمة<span class="g-icon g-f" title="女声">♀</span></span><span class="line"><span class="ar" data-audio="../audio/p04/ما-عملك-يا-علي_f.mp3" onclick="playAudio('../audio/p04/ما-عملك-يا-علي_f.mp3')">ما عملك يا علي؟</span></span></div>
+<div class="dlg-row"><span class="speaker">علي<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أنا-طالب-في-الجامعة-أدرس-اللغة-العربية_m.mp3" onclick="playAudio('../audio/p02/أنا-طالب-في-الجامعة-أدرس-اللغة-العربية_m.mp3')">أنا طالب في الجامعة. أدرس اللغة العربية.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l02-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l02-0.mp3')">فِي القَاعَةِ جَمْعٌ مِنَ الطُّلابِ مِنْ بُلْدَانَ مُخْتَلِفَةٍ.</span><div class="rd-cn">大厅里聚着来自不同国家的学生。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l02-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l02-1.mp3')">هَذِهِ صَدِيقَتِي سَارَةُ، وَهَذَا زَمِيلِي عَلِيٌّ.</span><div class="rd-cn">这是我的朋友萨拉，这是我的同学阿里。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l02-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l02-2.mp3')">أَتَحَدَّثُ مَعَهُمَا عَنِ اللُّغَةِ وَالعَمَلِ وَالعَائِلَةِ.</span><div class="rd-cn">我与他们聊语言、工作与家庭。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l02-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l02-3.mp3')">نَتَعَلَّمُ أَنَّ لِكُلِّ بَلَدٍ ثَقَافَتَهُ وَلُغَتَهُ.</span><div class="rd-cn">我们懂得每个国家都有自己的文化与语言。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/صديق-صديقة.mp3" onclick="playAudio('../audio/p03/صديق-صديقة.mp3')">صديق / صديقة</span></td><td class="roman">ṣadīq / ṣadīqa</td><td>朋友（男/女）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/هذه-هذا.mp3" onclick="playAudio('../audio/p05/هذه-هذا.mp3')">هذه / هذا</span></td><td class="roman">hāḏihī / hāḏā</td><td>这（女）/ 这（男）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بلد.mp3" onclick="playAudio('../audio/p02/بلد.mp3')">بلد</span></td><td class="roman">balad</td><td>国家</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/السعودية.mp3" onclick="playAudio('../audio/p02/السعودية.mp3')">السعودية</span></td><td class="roman">as-Suʿūdiyya</td><td>沙特阿拉伯</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/الإمارات.mp3" onclick="playAudio('../audio/p02/الإمارات.mp3')">الإمارات</span></td><td class="roman">al-Imārāt</td><td>阿联酋</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/اللغة-الأم.mp3" onclick="playAudio('../audio/p02/اللغة-الأم.mp3')">اللغة الأم</span></td><td class="roman">al-lugha al-umm</td><td>母语</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/الإنجليزية.mp3" onclick="playAudio('../audio/p02/الإنجليزية.mp3')">الإنجليزية</span></td><td class="roman">al-injlīziyya</td><td>英语</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/الفرنسية.mp3" onclick="playAudio('../audio/p02/الفرنسية.mp3')">الفرنسية</span></td><td class="roman">al-faransiyya</td><td>法语</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عمل.mp3" onclick="playAudio('../audio/p04/عمل.mp3')">عمل</span></td><td class="roman">ʿamal</td><td>工作/职业</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/طالب-طالبة.mp3" onclick="playAudio('../audio/p03/طالب-طالبة.mp3')">طالب / طالبة</span></td><td class="roman">ṭālib / ṭāliba</td><td>学生（男/女）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جامعة.mp3" onclick="playAudio('../audio/p03/جامعة.mp3')">جامعة</span></td><td class="roman">jāmiʿa</td><td>大学</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أدرس.mp3" onclick="playAudio('../audio/p02/أدرس.mp3')">أدرس</span></td><td class="roman">adrus</td><td>我学习/我在读</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>指示代词（أسماء الإشارة）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p05/هذا.mp3" onclick="playAudio('../audio/p05/هذا.mp3')">هذا</span></td><td class="roman">hāḏā</td><td>这个（近，男）</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هذه.mp3" onclick="playAudio('../audio/p05/هذه.mp3')">هذه</span></td><td class="roman">hāḏihi</td><td>这个（近，女）</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هذان.mp3" onclick="playAudio('../audio/p05/هذان.mp3')">هذان</span></td><td class="roman">hāḏān</td><td>这两个（近，男双）</td></tr><tr><td><span class="ar" data-audio="../audio/p05/هاتان.mp3" onclick="playAudio('../audio/p05/هاتان.mp3')">هاتان</span></td><td class="roman">hātān</td><td>这两个（近，女双）</td></tr><tr><td><span class="ar" data-audio="../audio/p03/ذلك-ذاك.mp3" onclick="playAudio('../audio/p03/ذلك-ذاك.mp3')">ذلك / ذاك</span></td><td class="roman">ḏālika / ḏāka</td><td>那个（远，男）</td></tr><tr><td><span class="ar" data-audio="../audio/p03/تلك.mp3" onclick="playAudio('../audio/p03/تلك.mp3')">تلك</span></td><td class="roman">tilka</td><td>那个（远，女）</td></tr></table></div>
+<div class="gram-block"><h4>名词的性（الجنس）</h4><p class="gram-note">大多数名词以 ة 结尾为阴性</p><p class="gram-note">مُعَلِّم（男老师）→ مُعَلِّمَة（女老师）</p><p class="gram-note">طَالِب（男学生）→ طَالِبَة（女学生）</p><p class="gram-note">部分名词天然阴性（شمس / أرض / سماء）</p></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l02-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l02-0.mp3')">مَنْ أَيُّ بَلَدٍ أَنْتَ؟</span><span class="ex-cn"> — 你来自哪个国家？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l02-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l02-1.mp3')">لُغَتِي الأُمُّ هِيَ العَرَبِيَّةُ</span><span class="ex-cn"> — 我的母语是阿拉伯语</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l02-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l02-2.mp3')">تَعْرِفُ هَذَا الرَّجُلَ؟</span><span class="ex-cn"> — 你认识这位男士吗？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l02-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l02-3.mp3')">مَا عَمَلُكَ؟</span><span class="ex-cn"> — 你的职业是什么？</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯国家共有22个，覆盖西亚和北非。主要国家包括：沙特阿拉伯、埃及、阿联酋、伊拉克、约旦、黎巴嫩、叙利亚、摩洛哥、阿尔及利亚、突尼斯等。虽然各国方言不同，但现代标准阿拉伯语（MSA / الفصحى）是所有国家的官方语言和教学语言。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

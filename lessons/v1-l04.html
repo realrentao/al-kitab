@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الأرقام | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/الأرقام.mp3" onclick="playAudio('../audio/p02/الأرقام.mp3')">الأرقام</span></h1>
+  <p style="color:#555;">第四课：数字与计数</p>
+  <div class="tags"><span class="tag">أرقام</span><span class="tag">عدد</span><span class="tag">سعر</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تعدّ من واحد إلى عشرة</span> <span class="obj-cn">会从一数到十</span></li><li><span class="ar-obj">أن توافق العدد جنس الاسم</span> <span class="obj-cn">会使数词与名词性一致</span></li><li><span class="ar-obj">أن تقرأ الأرقام في السياق</span> <span class="obj-cn">会在语境中读数字</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">بائع<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/مرحبا-هل-تريد-شيئا_m.mp3" onclick="playAudio('../audio/p04/مرحبا-هل-تريد-شيئا_m.mp3')">مرحباً! هل تريد شيئاً؟</span></span></div>
+<div class="dlg-row"><span class="speaker">زبون<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/نعم-كم-ثمن-هذا-القلم_m.mp3" onclick="playAudio('../audio/p05/نعم-كم-ثمن-هذا-القلم_m.mp3')">نعم، كم ثمن هذا القلم؟</span></span></div>
+<div class="dlg-row"><span class="speaker">بائع<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/ثمنه-خمسة-ريالات_m.mp3" onclick="playAudio('../audio/p03/ثمنه-خمسة-ريالات_m.mp3')">ثمنه خمسة ريالات.</span></span></div>
+<div class="dlg-row"><span class="speaker">زبون<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/وكم-ثمن-هذه-الدفتر_m.mp3" onclick="playAudio('../audio/p05/وكم-ثمن-هذه-الدفتر_m.mp3')">وكم ثمن هذه الدفتر؟</span></span></div>
+<div class="dlg-row"><span class="speaker">بائع<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/ثمنها-عشرة-ريالات_m.mp3" onclick="playAudio('../audio/p03/ثمنها-عشرة-ريالات_m.mp3')">ثمنها عشرة ريالات.</span></span></div>
+<div class="dlg-row"><span class="speaker">زبون<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أريد-قلمين-وثلاث-دفاتر-كم-المبلغ-كله_m.mp3" onclick="playAudio('../audio/p02/أريد-قلمين-وثلاث-دفاتر-كم-المبلغ-كله_m.mp3')">أريد قلمين وثلاث دفاتر. كم المبلغ كله؟</span></span></div>
+<div class="dlg-row"><span class="speaker">بائع<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/المبلغ-أربعون-ريالا_m.mp3" onclick="playAudio('../audio/p02/المبلغ-أربعون-ريالا_m.mp3')">المبلغ أربعون ريالاً.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l04-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l04-0.mp3')">فِي الصَّفِّ عَشَرَةُ تَلَامِيذَ.</span><div class="rd-cn">教室里有十名学生。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l04-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l04-1.mp3')">عِنْدِي خَمْسَةُ كُتُبٍ وَثَلَاثَةُ أَقْلَامٍ.</span><div class="rd-cn">我有五本书和三支笔。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l04-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l04-2.mp3')">اشْتَرَيْنَا اثْنَتَيْنِ وَعِشْرِينَ تَفَّاحَةً لِلْوَلِيمَةِ.</span><div class="rd-cn">我们为宴席买了二十二个苹果。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l04-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l04-3.mp3')">العَدُّ سَهْلٌ إِذَا تَدَرَّبْنَا كُلَّ يَوْمٍ.</span><div class="rd-cn">若每天练习，数数便很容易。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رقم.mp3" onclick="playAudio('../audio/p03/رقم.mp3')">رقم</span></td><td class="roman">raqam</td><td>数字/号码</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عدد.mp3" onclick="playAudio('../audio/p04/عدد.mp3')">عدد</span></td><td class="roman">ʿadad</td><td>数量/数目</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/واحد.mp3" onclick="playAudio('../audio/p05/واحد.mp3')">واحد</span></td><td class="roman">wāḥid</td><td>一</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/اثنان.mp3" onclick="playAudio('../audio/p02/اثنان.mp3')">اثنان</span></td><td class="roman">ithnān</td><td>二</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثلاثة.mp3" onclick="playAudio('../audio/p03/ثلاثة.mp3')">ثلاثة</span></td><td class="roman">thalātha</td><td>三</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أربعة.mp3" onclick="playAudio('../audio/p02/أربعة.mp3')">أربعة</span></td><td class="roman">arbaʿa</td><td>四</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خمسة.mp3" onclick="playAudio('../audio/p03/خمسة.mp3')">خمسة</span></td><td class="roman">khamsa</td><td>五</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ستة.mp3" onclick="playAudio('../audio/p03/ستة.mp3')">ستة</span></td><td class="roman">sitta</td><td>六</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سبعة.mp3" onclick="playAudio('../audio/p03/سبعة.mp3')">سبعة</span></td><td class="roman">sabʿa</td><td>七</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثمانية.mp3" onclick="playAudio('../audio/p03/ثمانية.mp3')">ثمانية</span></td><td class="roman">thamāniya</td><td>八</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تسعة.mp3" onclick="playAudio('../audio/p03/تسعة.mp3')">تسعة</span></td><td class="roman">tisʿa</td><td>九</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عشرة.mp3" onclick="playAudio('../audio/p04/عشرة.mp3')">عشرة</span></td><td class="roman">ʿashara</td><td>十</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عشرون.mp3" onclick="playAudio('../audio/p04/عشرون.mp3')">عشرون</span></td><td class="roman">ʿishrūn</td><td>二十</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثمن-سعر.mp3" onclick="playAudio('../audio/p03/ثمن-سعر.mp3')">ثمن / سعر</span></td><td class="roman">thaman / siʿr</td><td>价格</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ريال.mp3" onclick="playAudio('../audio/p03/ريال.mp3')">ريال</span></td><td class="roman">riyāl</td><td>里亚尔（货币单位）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كم.mp3" onclick="playAudio('../audio/p04/كم.mp3')">كم؟</span></td><td class="roman">kam?</td><td>多少？</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/المبلغ.mp3" onclick="playAudio('../audio/p02/المبلغ.mp3')">المبلغ</span></td><td class="roman">al-mablagh</td><td>总金额</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 قواعد</h2>
+<div class="gram-block"><h4>阿拉伯数字规则（قواعد العدد）</h4><p class="gram-note">1–2：数词与被数词性数一致</p><p class="gram-note">3–9：数词与被数词性相反（单数）</p><p class="gram-note">11–19：数词与被数词性相反（单数）</p><p class="gram-note">20–90：整十数为阳性复形，后接属格单数</p><p class="gram-note">100：مِئَة（阴），100+：مِئَتَا（主）</p></div>
+<div class="gram-block"><h4>例句</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p03/ثلاث-كتب.mp3" onclick="playAudio('../audio/p03/ثلاث-كتب.mp3')">ثلاثُ كُتُبٍ</span></td><td class="roman">thalāthu kutubin</td><td>三本书</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أربع-طالبات.mp3" onclick="playAudio('../audio/p02/أربع-طالبات.mp3')">أربعُ طالباتٍ</span></td><td class="roman">arbaʿu ṭālibātin</td><td>四名女学生</td></tr><tr><td><span class="ar" data-audio="../audio/p04/عشرون-يوما.mp3" onclick="playAudio('../audio/p04/عشرون-يوما.mp3')">عشرون يوماً</span></td><td class="roman">ʿishrūna yawman</td><td>二十天</td></tr><tr><td><span class="ar" data-audio="../audio/p04/مئة-ريال.mp3" onclick="playAudio('../audio/p04/مئة-ريال.mp3')">مئة ريال</span></td><td class="roman">miʾat riyālin</td><td>一百里亚尔</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l04-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l04-0.mp3')">كَمْ ثَمَنُ هَذَا؟</span><span class="ex-cn"> — 这个多少钱？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l04-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l04-1.mp3')">العَدَدُ وَاحِدٌ وَعِشْرُونَ</span><span class="ex-cn"> — 数字是二十一</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l04-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l04-2.mp3')">عِنْدِي اثْنَانِ وَثَلَاثُونَ رِيَالًا</span><span class="ex-cn"> — 我有三十二里亚尔</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l04-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l04-3.mp3')">نَعُدُّ مَعًا</span><span class="ex-cn"> — 我们一起数</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯数字（0,1,2…9）实际上起源于印度，经阿拉伯世界传入欧洲，因此被称为&quot;Arabic numerals&quot;。但在阿拉伯国家本身，人们使用的是另一套&quot;东阿拉伯数字&quot;（٠١٢٣٤٥٦٧٨٩）。两种系统都通用，但正式文件中更常用东阿拉伯数字。价格通常以当地货币标示：沙特里亚尔（SAR）、埃及镑（EGP）、迪拉姆（AED/MAD）等。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

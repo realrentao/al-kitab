@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الإعلام والأخبار | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتوسط</div>
+  <h1><span class="ar" data-audio="../audio/p02/الإعلام-والأخبار.mp3" onclick="playAudio('../audio/p02/الإعلام-والأخبار.mp3')">الإعلام والأخبار</span></h1>
+  <p style="color:#555;">中级第三课：媒体与新闻</p>
+  <div class="tags"><span class="tag">إعلام</span><span class="tag">صحافة</span><span class="tag">تقرير</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تحلل خبرًا صحفيًا</span> <span class="obj-cn">会分析新闻</span></li><li><span class="ar-obj">أن تستعمل الذي/التي</span> <span class="obj-cn">会用关系代词</span></li><li><span class="ar-obj">أن تستعمل اسم المفعول</span> <span class="obj-cn">会用被动名词</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">مذيع<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/مرحبا-بكم-في-نشرة-الأخبار-المسائية-أهم-الأخبار-ا_m.mp3" onclick="playAudio('../audio/p04/مرحبا-بكم-في-نشرة-الأخبار-المسائية-أهم-الأخبار-ا_m.mp3')">مرحباً بكم في نشرة الأخبار المسائية. أهم الأخبار اليوم: اجتماع قمة الدول العربية في القاهرة.</span></span></div>
+<div class="dlg-row"><span class="speaker">مراسل<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/نعم-هذا-الاجتماع-يهدف-إلى-مناقشة-القضايا-الاقتصاد_m.mp3" onclick="playAudio('../audio/p05/نعم-هذا-الاجتماع-يهدف-إلى-مناقشة-القضايا-الاقتصاد_m.mp3')">نعم، هذا الاجتماع يهدف إلى مناقشة القضايا الاقتصادية والأمنية المشتركة.</span></span></div>
+<div class="dlg-row"><span class="speaker">مذيع<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/وما-ردود-الفعل-حتى-الآن_m.mp3" onclick="playAudio('../audio/p05/وما-ردود-الفعل-حتى-الآن_m.mp3')">وما ردود الفعل حتى الآن؟</span></span></div>
+<div class="dlg-row"><span class="speaker">مراسل<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/معظم-الدول-أعربت-عن-تفاؤلها-بشأن-نتائج-القمة_m.mp3" onclick="playAudio('../audio/p04/معظم-الدول-أعربت-عن-تفاؤلها-بشأن-نتائج-القمة_m.mp3')">معظم الدول أعربت عن تفاؤلها بشأن نتائج القمة.</span></span></div>
+<div class="dlg-row"><span class="speaker">مذيع<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/شكرا-لتغطيتك-والآن-ننتقل-إلى-تقرير-الطقس_m.mp3" onclick="playAudio('../audio/p03/شكرا-لتغطيتك-والآن-ننتقل-إلى-تقرير-الطقس_m.mp3')">شكراً لتغطيتك. والآن ننتقل إلى تقرير الطقس.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l03-0.mp3" onclick="playAudio('../audio/p01/rd-v2-l03-0.mp3')">نَشَرَتِ الجَرِيدَةُ تَقْرِيرًا عَنِ المُنَاخِ.</span><div class="rd-cn">报纸刊登了一篇关于气候的报道。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l03-1.mp3" onclick="playAudio('../audio/p01/rd-v2-l03-1.mp3')">الصَّحَفِيُّ الَّذِي كَتَبَ المَقَالَ مَعْرُوفٌ.</span><div class="rd-cn">写这篇文章的记者很有名。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l03-2.mp3" onclick="playAudio('../audio/p01/rd-v2-l03-2.mp3')">المَعْلُومَاتُ المَنْشُورَةُ مُهِمَّةٌ لِلْقَارِئِ.</span><div class="rd-cn">已发布的信息对读者很重要。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v2-l03-3.mp3" onclick="playAudio('../audio/p01/rd-v2-l03-3.mp3')">قُرِئَ الخَبَرُ مِنْ قِبَلِ آلَافِ النَّاسِ.</span><div class="rd-cn">这新闻被数千人阅读。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إعلام.mp3" onclick="playAudio('../audio/p02/إعلام.mp3')">إعلام</span></td><td class="roman">iʿlām</td><td>媒体/宣传</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أخبار.mp3" onclick="playAudio('../audio/p02/أخبار.mp3')">أخبار</span></td><td class="roman">akhbār</td><td>新闻</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/صحيفة.mp3" onclick="playAudio('../audio/p03/صحيفة.mp3')">صحيفة</span></td><td class="roman">ṣaḥīfa</td><td>报纸</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مجلة.mp3" onclick="playAudio('../audio/p04/مجلة.mp3')">مجلة</span></td><td class="roman">majalla</td><td>杂志</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تلفزيون.mp3" onclick="playAudio('../audio/p03/تلفزيون.mp3')">تلفزيون</span></td><td class="roman">tilvizyūn</td><td>电视</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إذاعة.mp3" onclick="playAudio('../audio/p02/إذاعة.mp3')">إذاعة</span></td><td class="roman">idhāʿa</td><td>广播电台</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/موقع-إلكتروني.mp3" onclick="playAudio('../audio/p04/موقع-إلكتروني.mp3')">موقع إلكتروني</span></td><td class="roman">mawqiʿ iliktrūnī</td><td>网站</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/وسائل-التواصل.mp3" onclick="playAudio('../audio/p05/وسائل-التواصل.mp3')">وسائل التواصل</span></td><td class="roman">wasāʾil at-tawāṣul</td><td>社交媒体</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مذيع.mp3" onclick="playAudio('../audio/p04/مذيع.mp3')">مذيع</span></td><td class="roman">mudhīʿ</td><td>主持人/播音员</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مراسل.mp3" onclick="playAudio('../audio/p04/مراسل.mp3')">مراسل</span></td><td class="roman">murāsil</td><td>记者/通讯员</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تقرير.mp3" onclick="playAudio('../audio/p03/تقرير.mp3')">تقرير</span></td><td class="roman">taqrīr</td><td>报告</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مقال.mp3" onclick="playAudio('../audio/p04/مقال.mp3')">مقال</span></td><td class="roman">maqāl</td><td>文章/社论</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/العنوان.mp3" onclick="playAudio('../audio/p02/العنوان.mp3')">العنوان</span></td><td class="roman">ʿunwān</td><td>标题</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خبر.mp3" onclick="playAudio('../audio/p03/خبر.mp3')">خبر</span></td><td class="roman">khabar</td><td>消息/新闻条目</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حدث.mp3" onclick="playAudio('../audio/p03/حدث.mp3')">حدث</span></td><td class="roman">ḥadath</td><td>事件</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/اجتماع.mp3" onclick="playAudio('../audio/p02/اجتماع.mp3')">اجتماع</span></td><td class="roman">ijtimāʿ</td><td>会议</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قمة.mp3" onclick="playAudio('../audio/p04/قمة.mp3')">قمة</span></td><td class="roman">qimma</td><td>峰会</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/اقتصادي.mp3" onclick="playAudio('../audio/p02/اقتصادي.mp3')">اقتصادي</span></td><td class="roman">iqtiṣādī</td><td>经济的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أمني.mp3" onclick="playAudio('../audio/p02/أمني.mp3')">أمني</span></td><td class="roman">amnī</td><td>安全的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سياسي.mp3" onclick="playAudio('../audio/p03/سياسي.mp3')">سياسي</span></td><td class="roman">siyāsī</td><td>政治的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثقافي.mp3" onclick="playAudio('../audio/p03/ثقافي.mp3')">ثقافي</span></td><td class="roman">thaqāfī</td><td>文化的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رياضي.mp3" onclick="playAudio('../audio/p03/رياضي.mp3')">رياضي</span></td><td class="roman">riyāḍī</td><td>体育的</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>间接引语（القول غير المباشر）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p04/قال-إنه-.mp3" onclick="playAudio('../audio/p04/قال-إنه-.mp3')">قَالَ إِنَّهُ ...</span></td><td class="roman">qāla innahu ...</td><td>他说……</td></tr><tr><td><span class="ar" data-audio="../audio/p02/أخبرني-أن-.mp3" onclick="playAudio('../audio/p02/أخبرني-أن-.mp3')">أَخْبَرَنِي أَنَّ ...</span></td><td class="roman">akhbaranī anna ...</td><td>他告诉我……</td></tr><tr><td><span class="ar" data-audio="../audio/p03/سأل-هل-.mp3" onclick="playAudio('../audio/p03/سأل-هل-.mp3')">سَأَلَ هَلْ ...</span></td><td class="roman">saʾala hal ...</td><td>他问是否……</td></tr></table></div>
+<div class="gram-block"><h4>新闻标题语法特点</h4><p class="gram-note">标题常省略动词，用名词开头</p><p class="gram-note">使用主动 participle（اسم الفاعل）</p></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l03-0.mp3" onclick="playAudio('../audio/p00/ex-v2-l03-0.mp3')">مَاذَا جَاءَ فِي الخَبَرِ؟</span><span class="ex-cn"> — 新闻里说了什么？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l03-1.mp3" onclick="playAudio('../audio/p00/ex-v2-l03-1.mp3')">حَسَبَ مَا وَرَدَ فِي التَّقْرِيرِ</span><span class="ex-cn"> — 据报告所载</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l03-2.mp3" onclick="playAudio('../audio/p00/ex-v2-l03-2.mp3')">مَصْدَرٌ مَوْثُوقٌ</span><span class="ex-cn"> — 可靠的来源</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v2-l03-3.mp3" onclick="playAudio('../audio/p00/ex-v2-l03-3.mp3')">عَنْوَانُ المَقَالِ</span><span class="ex-cn"> — 文章标题</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯媒体格局多元且充满活力。主要泛阿拉伯卫星频道包括：Al Jazeera（ الجزيرة，卡塔尔）、Al Arabiya（ العربية，沙特）、MBC（沙特）、CBC News（埃及）。各国也有强大的本土媒体：埃及拥有中东最大的电影和电视产业；黎巴嫩曾是出版中心。社交媒体彻底改变了信息传播方式——Twitter/X 在阿拉伯之春中扮演关键角色。新闻自由度各国差异很大，从相对开放（黎巴嫩、突尼斯）到严格管控不等。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نظرية الترجمة وممارستها | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتقدم</div>
+  <h1><span class="ar" data-audio="../audio/p05/نظرية-الترجمة-وممارستها.mp3" onclick="playAudio('../audio/p05/نظرية-الترجمة-وممارستها.mp3')">نظرية الترجمة وممارستها</span></h1>
+  <p style="color:#555;">高级第五单元：翻译理论与实践</p>
+  <div class="tags"><span class="tag">ترجمة</span><span class="tag">تفسير</span><span class="tag">توازن</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تفهم نظرية الترجمة</span> <span class="obj-cn">会理解翻译理论</span></li><li><span class="ar-obj">أن تبحث عن المعادل</span> <span class="obj-cn">会寻找对等语</span></li><li><span class="ar-obj">أن توازن المعنى والمبنى</span> <span class="obj-cn">能平衡意义与形式</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+
+</section>
+
+
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ترجمة.mp3" onclick="playAudio('../audio/p02/ترجمة.mp3')">ترجمة</span></td><td class="roman">tarjama</td><td>翻译</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مترجم.mp3" onclick="playAudio('../audio/p04/مترجم.mp3')">مترجم</span></td><td class="roman">mutarjim</td><td>译者</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تفسير.mp3" onclick="playAudio('../audio/p03/تفسير.mp3')">تفسير</span></td><td class="roman">tafsīr</td><td>口译/解释</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/توازن.mp3" onclick="playAudio('../audio/p03/توازن.mp3')">توازن</span></td><td class="roman">tawāzan</td><td>平衡/对等</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نص-مصدر.mp3" onclick="playAudio('../audio/p05/نص-مصدر.mp3')">نص مصدر</span></td><td class="roman">naṣṣ maṣdar</td><td>原文/源文本</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نص-هدف.mp3" onclick="playAudio('../audio/p05/نص-هدف.mp3')">نص هدف</span></td><td class="roman">naṣṣ hadaf</td><td>译文/目标文本</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أمانة.mp3" onclick="playAudio('../audio/p02/أمانة.mp3')">أمانة</span></td><td class="roman">amāna</td><td>忠实/信</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جودة.mp3" onclick="playAudio('../audio/p03/جودة.mp3')">جودة</span></td><td class="roman">jawda</td><td>质量</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سياق.mp3" onclick="playAudio('../audio/p03/سياق.mp3')">سياق</span></td><td class="roman">siyāq</td><td>语境</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/دلالة.mp3" onclick="playAudio('../audio/p03/دلالة.mp3')">دلالة</span></td><td class="roman">dalāla</td><td>语义/含义</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/إشارة.mp3" onclick="playAudio('../audio/p02/إشارة.mp3')">إشارة</span></td><td class="roman">ishāra</td><td>指示/指涉</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تعريب.mp3" onclick="playAudio('../audio/p03/تعريب.mp3')">تعريب</span></td><td class="roman">taʿrīb</td><td>阿拉伯化</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مقابل.mp3" onclick="playAudio('../audio/p04/مقابل.mp3')">مقابل</span></td><td class="roman">muqābil</td><td>对应词/对等词</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كلمة-تعريب.mp3" onclick="playAudio('../audio/p04/كلمة-تعريب.mp3')">كلمة تعريب</span></td><td class="roman">kalimat taʿrīb</td><td>借词</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ترجمة-حرفية.mp3" onclick="playAudio('../audio/p02/ترجمة-حرفية.mp3')">ترجمة حرفية</span></td><td class="roman">tarjama ḥarfiyya</td><td>直译</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ترجمة-حرة.mp3" onclick="playAudio('../audio/p02/ترجمة-حرة.mp3')">ترجمة حرة</span></td><td class="roman">tarjama ḥurra</td><td>意译</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ترجمة-أدبية.mp3" onclick="playAudio('../audio/p02/ترجمة-أدبية.mp3')">ترجمة أدبية</span></td><td class="roman">tarjama adabiyya</td><td>文学翻译</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ترجمة-فورية.mp3" onclick="playAudio('../audio/p02/ترجمة-فورية.mp3')">ترجمة فورية</span></td><td class="roman">tarjama fawriyya</td><td>同声传译</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u05-0.mp3" onclick="playAudio('../audio/p00/ex-v3-u05-0.mp3')">مَعْنًى وَمُكَافِئٌ</span><span class="ex-cn"> — 意义与对等</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u05-1.mp3" onclick="playAudio('../audio/p00/ex-v3-u05-1.mp3')">وَفْقَ السِّيَاقِ</span><span class="ex-cn"> — 据语境</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u05-2.mp3" onclick="playAudio('../audio/p00/ex-v3-u05-2.mp3')">نَقْلٌ وَلَيْسَ نَقْلًا حَرْفِيًّا</span><span class="ex-cn"> — 转译而非直译</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u05-3.mp3" onclick="playAudio('../audio/p00/ex-v3-u05-3.mp3')">أَمَانَةُ المُتَرْجِمِ</span><span class="ex-cn"> — 译者的忠实</span></div></div>
+</section>
+
+
+
+<section class="section reading">
+<h2>📖 تحديات الترجمة من وإلى اللغة العربية</h2>
+<div class="reading-ar"><p>الترجمة بين العربية واللغات الأخرى ليست مجرد نقل للكلمات، بل هي نقل للمعاني والأفكار والثقافات. وهذا ما يجعلها فناً وعلمًا في آن واحد.
+
+من أكبر تحديات الترجمة من العربية: غنى الصرف العربي (كلمة واحدة قد تحتاج جملة كاملة لشرحها)، والتراكيب النحوية المعقدة (الجملة الواحدة قد تمتد لعدة أسطر)، والثقافة المرتبطة باللغة (مصطلحات دينية واجتماعية لا مقابل لها في لغات أخرى).
+
+من تحديات الترجمة إلى العربية: اختلاف أنظمة الكتابة (من اليسار إلى اليمين vs من اليمين إلى اليسار)، واختلاف التفكير (اللغات السامية لها منطق مختلف عن اللغات الهندوأوروبية)، والحاجة إلى &quot;تعريب&quot; المصطلحات الأجنبية.</p></div>
+<div class="reading-cn"><p>阿拉伯语与其他语言之间的翻译不仅仅是词语的转换，更是意义、思想和文化的传递。这使得它既是一门艺术也是一门科学。
+
+从阿拉伯语翻译的最大挑战：阿拉伯语形态学的丰富性（一个词可能需要完整的句子来解释）、复杂的句法结构（一句话可能延伸数行）、与语言相关的文化（宗教和社会术语在其他语言中没有对应词）。
+
+翻译成阿拉伯语的挑战：书写方向的差异（从右到左 vs 从左到右）、思维方式的差异（闪含语系与印欧语系的逻辑不同）、对外来术语进行「阿拉伯化」的需求。</p></div>
+</section>
+<section class="section discussion">
+<h2>💬 Discussion Questions</h2>
+<ol class="dq-list"><li>هل يمكن تحقيق ترجمة &#x27;مثالية&#x27; تماماً؟ لماذا ولماذا لا؟</li><li>ما رأيك في &#x27;التعريب&#x27; مقابل إبقاء المصطلحات الأجنبية كما هي؟</li><li>أي أصعب: الترجمة من العربية أم إليها؟</li></ol>
+</section>
+<section class="section gtopics">
+<h2>📚 Grammar Topics</section>
+<div class="gtopic"><strong>不可译的文化负载词:</strong> 某些阿拉伯概念无法完美翻译：الشرف（荣誉，远超&#x27;honor&#x27;）、العيب（缺陷，含社会耻辱意味）、الغربة（异乡感/疏离，兼具物理和心理层面）</div><div class="gtopic"><strong>翻译中的词性转换:</strong> 由于阿拉伯语没有「是」动词系词，翻译时常需调整：He is a doctor → هُوَ طَبِيبٌ（无需 copula）；I have been studying → أَدْرُسُ مُنْذُ（用 منذ 表持续）</div>
+</section>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

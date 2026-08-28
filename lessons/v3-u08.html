@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الأدب العربي الكلاسيكي | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى المتقدم</div>
+  <h1><span class="ar" data-audio="../audio/p02/الأدب-العربي-الكلاسيكي.mp3" onclick="playAudio('../audio/p02/الأدب-العربي-الكلاسيكي.mp3')">الأدب العربي الكلاسيكي</span></h1>
+  <p style="color:#555;">高级第八单元：古典阿拉伯文学</p>
+  <div class="tags"><span class="tag">أدب</span><span class="tag">كلاسيكي</span><span class="tag">شعر جاهلي</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تنقد الأدب الكلاسيكي</span> <span class="obj-cn">会批评古典文学</span></li><li><span class="ar-obj">أن تفهم البحر الشعري</span> <span class="obj-cn">会理解诗律</span></li><li><span class="ar-obj">أن تقدر المحسنات</span> <span class="obj-cn">会欣赏修辞润色</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+
+</section>
+
+
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أدب-كلاسيكي.mp3" onclick="playAudio('../audio/p02/أدب-كلاسيكي.mp3')">أدب كلاسيكي</span></td><td class="roman">adab klāsīkī</td><td>古典文学</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/شعر-جاهلي.mp3" onclick="playAudio('../audio/p03/شعر-جاهلي.mp3')">شعر جاهلي</span></td><td class="roman">shiʿr jāhilī</td><td>蒙昧时期诗歌</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/معلقة.mp3" onclick="playAudio('../audio/p04/معلقة.mp3')">معلقة</span></td><td class="roman">muʿallaqa</td><td>悬诗</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قصة.mp3" onclick="playAudio('../audio/p04/قصة.mp3')">قصة</span></td><td class="roman">qiṣṣa</td><td>故事</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ألف-ليلة-وليلة.mp3" onclick="playAudio('../audio/p02/ألف-ليلة-وليلة.mp3')">ألف ليلة وليلة</span></td><td class="roman">alf layla wa-layla</td><td>一千零一夜</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كليلة-ودمنة.mp3" onclick="playAudio('../audio/p04/كليلة-ودمنة.mp3')">كليلة ودمنة</span></td><td class="roman">kalīla wa-dimna</td><td>卡里莱和笛木乃</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مقامات.mp3" onclick="playAudio('../audio/p04/مقامات.mp3')">مقامات</span></td><td class="roman">maqāmāt</td><td>玛卡梅（叙事文体）</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مقامات-الحريري.mp3" onclick="playAudio('../audio/p04/مقامات-الحريري.mp3')">مقامات الحريري</span></td><td class="roman">Maqāmāt al-Ḥarīrī</td><td>哈里里的玛卡梅</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/امرؤ-القيس.mp3" onclick="playAudio('../audio/p02/امرؤ-القيس.mp3')">امرؤ القيس</span></td><td class="roman">Imruʾ al-Qays</td><td>伊姆鲁·盖斯</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/المتنبي.mp3" onclick="playAudio('../audio/p02/المتنبي.mp3')">المتنبي</span></td><td class="roman">al-Mutanabbī</td><td>穆泰奈比</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أبو-نواس.mp3" onclick="playAudio('../audio/p02/أبو-نواس.mp3')">أبو نواس</span></td><td class="roman">Abū Nuwās</td><td>艾布·努瓦斯</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/الجاحظ.mp3" onclick="playAudio('../audio/p02/الجاحظ.mp3')">الجاحظ</span></td><td class="roman">al-Jāḥiẓ</td><td>贾希ز</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/ابن-خلدون.mp3" onclick="playAudio('../audio/p02/ابن-خلدون.mp3')">ابن خلدون</span></td><td class="roman">Ibn Khaldūn</td><td>伊本·赫勒敦</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نهج-البلاغة.mp3" onclick="playAudio('../audio/p05/نهج-البلاغة.mp3')">نهج البلاغة</span></td><td class="roman">Nahj al-Balāgha</td><td>辞章之道</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ديوان.mp3" onclick="playAudio('../audio/p03/ديوان.mp3')">ديوان</span></td><td class="roman">dīwān</td><td>诗集</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بيت-شعر.mp3" onclick="playAudio('../audio/p02/بيت-شعر.mp3')">بيت شعر</span></td><td class="roman">bayt shiʿr</td><td>诗句</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قافية.mp3" onclick="playAudio('../audio/p04/قافية.mp3')">قافية</span></td><td class="roman">qāfiya</td><td>韵脚</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u08-0.mp3" onclick="playAudio('../audio/p00/ex-v3-u08-0.mp3')">الْبَحْرُ الشِّعْرِيُّ</span><span class="ex-cn"> — 诗律</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u08-1.mp3" onclick="playAudio('../audio/p00/ex-v3-u08-1.mp3')">الْقَافِيَةُ وَالرَّوِيُّ</span><span class="ex-cn"> — 韵脚与韵基</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u08-2.mp3" onclick="playAudio('../audio/p00/ex-v3-u08-2.mp3')">المُعَلَّقَاتُ</span><span class="ex-cn"> — 悬诗</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v3-u08-3.mp3" onclick="playAudio('../audio/p00/ex-v3-u08-3.mp3')">بَلَاغَةُ المُتَنَبِّي</span><span class="ex-cn"> — 穆泰纳比的修辞</span></div></div>
+</section>
+
+
+
+<section class="section reading">
+<h2>📖 من المعلقات إلى مقامات الحريري: رحلة في الأدب العربي القديم</h2>
+<div class="reading-ar"><p>الأدب العربي الكلاسيكي يمتد من قبل الإسلام (الشعر الجاهلي والمعلقات) إلى العصر العباسي الذهبي (الشعر والنثر)再到 العصور المتأخرة.
+
+أبرز الأنواع الأدبية الكلاسيكية: الشعر (أشهره المعلقات السبع والمعلقات الملحقة، وشعر المتنبي وأبي تمام وأبي نواس)، والنثر (القرآن الكريم – وهو أعلى نموذج للنثر العربي – والخطابة كنهج البلاغة، والكتابة الديوانية، ومقامات الحريري)، والقصص (كليلة ودمنة، وقصص ألف ليلة وليلة).
+
+من أبرز الشخصيات: امرؤ القيس (أمير الشعراء)، والمتنبي (شاعر العرب الأكبر)، والجاحظ (أديب عباسي فذ)، والمتنبي (شاعر الفخر والحكمة).</p></div>
+<div class="reading-cn"><p>古典阿拉伯文学从前伊斯兰时期（蒙昧时期诗歌和悬诗）延伸到阿拔斯黄金时代的诗歌与散文，再到后期时代。
+
+最主要的古典文学体裁：诗歌（最著名的是七大悬诗及其补录、穆泰奈比、艾布·泰马姆、艾布·努瓦斯的诗）、散文（《古兰经》——阿拉伯散文的最高典范、《辞章之道》演说集、宫廷书信体、哈里里的《玛卡梅》）、故事（《卡里莱和笛木乃》、《一千零一夜》）。
+
+最重要的人物：伊姆鲁·盖斯（诗歌王子）、穆泰奈比（最伟大的阿拉伯诗人）、贾希兹（天才的阿拔斯文学家）、哈里里（玛卡梅大师）。</p></div>
+</section>
+<section class="section discussion">
+<h2>💬 Discussion Questions</h2>
+<ol class="dq-list"><li>ما الذي يجعل المعلقات خالدة حتى اليوم؟</li><li>قارن بين شعر المتنبي وشعر أبي نواس من حيث الموضوع والأسلوب.</li><li>هل يمكن اعتبار القرآن الكريم نصاً أدبياً؟ ناقش.</li></ol>
+</section>
+<section class="section gtopics">
+<h2>📚 Grammar Topics</section>
+<div class="gtopic"><strong>古典诗歌的语法特殊性:</strong> 古典诗歌保留了许多现代标准阿拉伯语已不用的语法特征：如内格人称代词后缀（كَتَبْتُهُ = 我写了它，而非现代的 كَتَبْتُهُ）、某些 case endings 的特殊处理</div><div class="gtopic"><strong>古典散文的句子结构:</strong> 古典散文偏好长而复杂的句子（الجملة الطويلة المركبة），包含多层嵌入从句。阅读时需耐心拆解结构层次</div>
+</section>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

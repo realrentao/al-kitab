@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>في البيت | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p04/في-البيت.mp3" onclick="playAudio('../audio/p04/في-البيت.mp3')">في البيت</span></h1>
+  <p style="color:#555;">第九课：在家中</p>
+  <div class="tags"><span class="tag">بيت</span><span class="tag">غرفة</span><span class="tag">أثاث</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تصف مكان الأشياء في البيت</span> <span class="obj-cn">会描述家中物品位置</span></li><li><span class="ar-obj">أن تستعمل حروف الجر المكانية</span> <span class="obj-cn">会用方位介词</span></li><li><span class="ar-obj">أن تعبّر عن الملكية بـ (عند)</span> <span class="obj-cn">会用 عند 表拥有</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">ضيف<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/ما-شاء-الله-بيتك-جميل-جدا_m.mp3" onclick="playAudio('../audio/p04/ما-شاء-الله-بيتك-جميل-جدا_m.mp3')">ما شاء الله! بيتك جميل جداً.</span></span></div>
+<div class="dlg-row"><span class="speaker">صاحب<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/شكرا-تعال-أدخل-من-فضلك_m.mp3" onclick="playAudio('../audio/p03/شكرا-تعال-أدخل-من-فضلك_m.mp3')">شكراً. تعال، أدخل من فضلك.</span></span></div>
+<div class="dlg-row"><span class="speaker">ضيف<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/هل-هذه-غرفة-المعيشة_m.mp3" onclick="playAudio('../audio/p05/هل-هذه-غرفة-المعيشة_m.mp3')">هل هذه غرفة المعيشة؟</span></span></div>
+<div class="dlg-row"><span class="speaker">صاحب<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/نعم-وهذه-هي-المطبخ-وتلك-هي-غرفة-النوم_m.mp3" onclick="playAudio('../audio/p05/نعم-وهذه-هي-المطبخ-وتلك-هي-غرفة-النوم_m.mp3')">نعم، وهذه هي المطبخ وتلك هي غرفة النوم.</span></span></div>
+<div class="dlg-row"><span class="speaker">ضيف<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/كم-غرفة-في-بيتك_m.mp3" onclick="playAudio('../audio/p04/كم-غرفة-في-بيتك_m.mp3')">كم غرفة في بيتك؟</span></span></div>
+<div class="dlg-row"><span class="speaker">صاحب<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/عندي-ثلاث-غرف-نوم-وصالة-كبيرة_m.mp3" onclick="playAudio('../audio/p04/عندي-ثلاث-غرف-نوم-وصالة-كبيرة_m.mp3')">عندي ثلاث غرف نوم وصالة كبيرة.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l09-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l09-0.mp3')">بَيْتُنَا هَادِئٌ وَمَرِيحٌ.</span><div class="rd-cn">我们的家安静而舒适。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l09-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l09-1.mp3')">الكِتَابُ عَلَى الطَّاوِلَةِ، وَالقَطُّ تَحْتَ الكُرْسِيِّ.</span><div class="rd-cn">书在桌上，猫在椅下。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l09-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l09-2.mp3')">عِنْدِي هَاتِفٌ جَدِيدٌ وَحَاسُوبٌ فِي الحَقِيبَةِ.</span><div class="rd-cn">我有一部新手机和包里的电脑。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l09-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l09-3.mp3')">نُنَظِّفُ الغُرْفَةَ كُلَّ جُمُعَةٍ.</span><div class="rd-cn">我们每周打扫房间。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بيت-منزل.mp3" onclick="playAudio('../audio/p02/بيت-منزل.mp3')">بيت / منزل</span></td><td class="roman">bayt / manzil</td><td>房子/家</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/غرفة.mp3" onclick="playAudio('../audio/p04/غرفة.mp3')">غرفة</span></td><td class="roman">ghurfa</td><td>房间</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/غرفة-المعيشة.mp3" onclick="playAudio('../audio/p04/غرفة-المعيشة.mp3')">غرفة المعيشة</span></td><td class="roman">ghurat al-ʿaysh</td><td>客厅</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/غرفة-النوم.mp3" onclick="playAudio('../audio/p04/غرفة-النوم.mp3')">غرفة النوم</span></td><td class="roman">ghurat an-naum</td><td>卧室</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مطبخ.mp3" onclick="playAudio('../audio/p04/مطبخ.mp3')">مطبخ</span></td><td class="roman">maṭbakh</td><td>厨房</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حمام.mp3" onclick="playAudio('../audio/p03/حمام.mp3')">حمام</span></td><td class="roman">ḥammām</td><td>浴室</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/صالة.mp3" onclick="playAudio('../audio/p03/صالة.mp3')">صالة</span></td><td class="roman">ṣāla</td><td>大厅/起居室</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مفروشات.mp3" onclick="playAudio('../audio/p04/مفروشات.mp3')">مفروشات</span></td><td class="roman">mafarrushāt</td><td>家具</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سرير.mp3" onclick="playAudio('../audio/p03/سرير.mp3')">سرير</span></td><td class="roman">sarīr</td><td>床</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خزانة.mp3" onclick="playAudio('../audio/p03/خزانة.mp3')">خزانة</span></td><td class="roman">khizāna</td><td>衣柜</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثلاجة.mp3" onclick="playAudio('../audio/p03/ثلاجة.mp3')">ثلاجة</span></td><td class="roman">thallāja</td><td>冰箱</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/تلفاز-تلفزيون.mp3" onclick="playAudio('../audio/p03/تلفاز-تلفزيون.mp3')">تلفاز / تلفزيون</span></td><td class="roman">tilifāz / tilvizyūn</td><td>电视</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مكيف.mp3" onclick="playAudio('../audio/p04/مكيف.mp3')">مكيف</span></td><td class="roman">makīf</td><td>空调</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سجاد.mp3" onclick="playAudio('../audio/p03/سجاد.mp3')">سجاد</span></td><td class="roman">sijād</td><td>地毯</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ستارة.mp3" onclick="playAudio('../audio/p03/ستارة.mp3')">ستارة</span></td><td class="roman">sitāra</td><td>窗帘</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مرآة.mp3" onclick="playAudio('../audio/p04/مرآة.mp3')">مرآة</span></td><td class="roman">mirʾa</td><td>镜子</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/كرسي.mp3" onclick="playAudio('../audio/p04/كرسي.mp3')">كرسي</span></td><td class="roman">kursī</td><td>椅子</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/طاولة.mp3" onclick="playAudio('../audio/p03/طاولة.mp3')">طاولة</span></td><td class="roman">ṭāwila</td><td>桌子</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أريكة.mp3" onclick="playAudio('../audio/p02/أريكة.mp3')">أريكة</span></td><td class="roman">arīka</td><td>沙发</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>存在句（جملة وجود）— 有/没有</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p04/عندي-.mp3" onclick="playAudio('../audio/p04/عندي-.mp3')">عِنْدِي ...</span></td><td class="roman">ʿindī ...</td><td>我有……</td></tr><tr><td><span class="ar" data-audio="../audio/p04/لدي-.mp3" onclick="playAudio('../audio/p04/لدي-.mp3')">لَدَيَّ ...</span></td><td class="roman">ladayya ...</td><td>我拥有……（更正式）</td></tr><tr><td><span class="ar" data-audio="../audio/p04/عنده-.mp3" onclick="playAudio('../audio/p04/عنده-.mp3')">عِنْدَهُ ...</span></td><td class="roman">ʿindahu ...</td><td>他有……</td></tr><tr><td><span class="ar" data-audio="../audio/p04/ليس-عندي-.mp3" onclick="playAudio('../audio/p04/ليس-عندي-.mp3')">لَيْسَ عِنْدِي ...</span></td><td class="roman">laysa ʿindī ...</td><td>我没有……</td></tr></table></div>
+<div class="gram-block"><h4>介词（حروف الجر）— 在...里/上/下</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p04/في.mp3" onclick="playAudio('../audio/p04/في.mp3')">في</span></td><td class="roman">fī</td><td>在……里面</td></tr><tr><td><span class="ar" data-audio="../audio/p04/على.mp3" onclick="playAudio('../audio/p04/على.mp3')">على</span></td><td class="roman">ʿalā</td><td>在……上面</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l09-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l09-0.mp3')">أَيْنَ مَفْتَاحِي؟</span><span class="ex-cn"> — 我的钥匙在哪？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l09-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l09-1.mp3')">عِنْدَكَ سَاعَةٌ؟</span><span class="ex-cn"> — 你有表吗？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l09-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l09-2.mp3')">الصُّورَةُ عَلَى الحَائِطِ</span><span class="ex-cn"> — 画在墙上</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l09-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l09-3.mp3')">تَحْتَ السَّرِيرِ</span><span class="ex-cn"> — 在床底下</span></div></div>
+</section>
+
+<div class="culture-block"><p>传统的阿拉伯房屋围绕庭院（صحن）建造，房间面向内部庭院以保证隐私。现代城市公寓则采用西式布局。无论新旧，家中最重要的空间是「 Majlis」（مجلس）——接待客人的客厅，配有舒适的坐垫和地毯。客人来访时，主人会奉上咖啡或茶作为基本礼仪。脱鞋进入他人住宅是常见习俗。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

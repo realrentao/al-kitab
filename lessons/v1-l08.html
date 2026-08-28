@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الوقت والتواريخ | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/الوقت-والتواريخ.mp3" onclick="playAudio('../audio/p02/الوقت-والتواريخ.mp3')">الوقت والتواريخ</span></h1>
+  <p style="color:#555;">第八课：时间与日期</p>
+  <div class="tags"><span class="tag">ساعة</span><span class="tag">يوم</span><span class="tag">شهر</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تقرأ الساعة واليوم</span> <span class="obj-cn">会读钟点与星期</span></li><li><span class="ar-obj">أن تسمّي الشهور والأسبوع</span> <span class="obj-cn">会说出月份</span></li><li><span class="ar-obj">أن تحدد المواعيد</span> <span class="obj-cn">会约定时间</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">سائح<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/عفوا-ما-الساعة-الآن_m.mp3" onclick="playAudio('../audio/p04/عفوا-ما-الساعة-الآن_m.mp3')">عفواً، ما الساعة الآن؟</span></span></div>
+<div class="dlg-row"><span class="speaker">مارّ<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/الساعة-الثانية-وعشرون-دقيقة_m.mp3" onclick="playAudio('../audio/p02/الساعة-الثانية-وعشرون-دقيقة_m.mp3')">الساعة الثانية وعشرون دقيقة.</span></span></div>
+<div class="dlg-row"><span class="speaker">سائح<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p03/شكرا-وما-تاريخ-اليوم_m.mp3" onclick="playAudio('../audio/p03/شكرا-وما-تاريخ-اليوم_m.mp3')">شكراً. وما تاريخ اليوم؟</span></span></div>
+<div class="dlg-row"><span class="speaker">مارّ<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/اليوم-هو-الخامس-والعشرون-من-شهر-يناير_m.mp3" onclick="playAudio('../audio/p02/اليوم-هو-الخامس-والعشرون-من-شهر-يناير_m.mp3')">اليوم هو الخامس والعشرون من شهر يناير.</span></span></div>
+<div class="dlg-row"><span class="speaker">سائح<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/وما-يوم-الغد_m.mp3" onclick="playAudio('../audio/p05/وما-يوم-الغد_m.mp3')">وما يوم الغد؟</span></span></div>
+<div class="dlg-row"><span class="speaker">مارّ<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/غدا-يوم-السبت_m.mp3" onclick="playAudio('../audio/p04/غدا-يوم-السبت_m.mp3')">غداً يوم السبت.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l08-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l08-0.mp3')">الِاجْتِمَاعُ فِي السَّاعَةِ التَّاسِعَةِ صَبَاحًا.</span><div class="rd-cn">会议在上午九点。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l08-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l08-1.mp3')">نَدْرُسُ يَوْمَ الإِثْنَيْنِ وَنَرْتَاحُ يَوْمَ الجُمُعَةِ.</span><div class="rd-cn">我们周一上课，周五休息。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l08-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l08-2.mp3')">العُطْلَةُ فِي شَهْرِ يُولْيُو، وَالامْتِحَانُ فِي سَبْتَمْبَرَ.</span><div class="rd-cn">假期在七月，考试在九月。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l08-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l08-3.mp3')">الوَقْتُ كَنْزٌ، فَلْنَحْرِصْ عَلَيْهِ.</span><div class="rd-cn">时间如珍宝，当珍惜之。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ساعة.mp3" onclick="playAudio('../audio/p03/ساعة.mp3')">ساعة</span></td><td class="roman">sāʿa</td><td>小时/钟点</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/دقيقة.mp3" onclick="playAudio('../audio/p03/دقيقة.mp3')">دقيقة</span></td><td class="roman">daqīqa</td><td>分钟</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثانية.mp3" onclick="playAudio('../audio/p03/ثانية.mp3')">ثانية</span></td><td class="roman">thāniya</td><td>秒</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/تاريخ.mp3" onclick="playAudio('../audio/p02/تاريخ.mp3')">تاريخ</span></td><td class="roman">tarīkh</td><td>日期</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يوم.mp3" onclick="playAudio('../audio/p05/يوم.mp3')">يوم</span></td><td class="roman">yawm</td><td>天/星期几</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أحد-الأحد.mp3" onclick="playAudio('../audio/p02/أحد-الأحد.mp3')">أحد / الأحد</span></td><td class="roman">aḥad / al-aḥad</td><td>周日</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/اثنين-الاثنين.mp3" onclick="playAudio('../audio/p02/اثنين-الاثنين.mp3')">اثنين / الاثنين</span></td><td class="roman">ithnayn / al-ithnayn</td><td>周一</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثلاثاء-الثلاثاء.mp3" onclick="playAudio('../audio/p03/ثلاثاء-الثلاثاء.mp3')">ثلاثاء / الثلاثاء</span></td><td class="roman">thalāthāʾ / ath-thalāthāʾ</td><td>周二</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أربعاء-الأربعاء.mp3" onclick="playAudio('../audio/p02/أربعاء-الأربعاء.mp3')">أربعاء / الأربعاء</span></td><td class="roman">arbiʿāʾ / al-arbiʿāʾ</td><td>周三</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خميس-الخميس.mp3" onclick="playAudio('../audio/p03/خميس-الخميس.mp3')">خميس / الخميس</span></td><td class="roman">khamīs / al-khamīs</td><td>周四</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جمعة-الجمعة.mp3" onclick="playAudio('../audio/p03/جمعة-الجمعة.mp3')">جمعة / الجمعة</span></td><td class="roman">jumʿa / al-jumʿa</td><td>周五</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سبت-السبت.mp3" onclick="playAudio('../audio/p03/سبت-السبت.mp3')">سبت / السبت</span></td><td class="roman">sabt / as-sabt</td><td>周六</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/شهر.mp3" onclick="playAudio('../audio/p03/شهر.mp3')">شهر</span></td><td class="roman">shahr</td><td>月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يناير.mp3" onclick="playAudio('../audio/p05/يناير.mp3')">يناير</span></td><td class="roman">yanāyir</td><td>一月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/فبراير.mp3" onclick="playAudio('../audio/p04/فبراير.mp3')">فبراير</span></td><td class="roman">fibrāyir</td><td>二月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مارس.mp3" onclick="playAudio('../audio/p04/مارس.mp3')">مارس</span></td><td class="roman">māris</td><td>三月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أبريل.mp3" onclick="playAudio('../audio/p02/أبريل.mp3')">أبريل</span></td><td class="roman">abrīl</td><td>四月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مايو.mp3" onclick="playAudio('../audio/p04/مايو.mp3')">مايو</span></td><td class="roman">māyū</td><td>五月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يونيو.mp3" onclick="playAudio('../audio/p05/يونيو.mp3')">يونيو</span></td><td class="roman">yūnyū</td><td>六月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/يوليو.mp3" onclick="playAudio('../audio/p05/يوليو.mp3')">يوليو</span></td><td class="roman">yūlyū</td><td>七月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أغسطس.mp3" onclick="playAudio('../audio/p02/أغسطس.mp3')">أغسطس</span></td><td class="roman">aghusṭus</td><td>八月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سبتمبر.mp3" onclick="playAudio('../audio/p03/سبتمبر.mp3')">سبتمبر</span></td><td class="roman">sibtambir</td><td>九月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/أكتوبر.mp3" onclick="playAudio('../audio/p02/أكتوبر.mp3')">أكتوبر</span></td><td class="roman">uktūbar</td><td>十月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نوفمبر.mp3" onclick="playAudio('../audio/p05/نوفمبر.mp3')">نوفمبر</span></td><td class="roman">nūfambir</td><td>十一月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ديسمبر.mp3" onclick="playAudio('../audio/p03/ديسمبر.mp3')">ديسمبر</span></td><td class="roman">disambir</td><td>十二月</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سنة-عام.mp3" onclick="playAudio('../audio/p03/سنة-عام.mp3')">سنة / عام</span></td><td class="roman">sanat / ʿām</td><td>年</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/غدا.mp3" onclick="playAudio('../audio/p04/غدا.mp3')">غداً</span></td><td class="roman">ghadan</td><td>明天</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بأمس.mp3" onclick="playAudio('../audio/p02/بأمس.mp3')">بأمس</span></td><td class="roman">ams</td><td>昨天</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>定时的用法（الساعة）</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/الساعة-الواحدة.mp3" onclick="playAudio('../audio/p02/الساعة-الواحدة.mp3')">الساعة الواحدة</span></td><td class="roman">as-sāʿa al-wāḥida</td><td>一点钟</td></tr><tr><td><span class="ar" data-audio="../audio/p02/الساعة-الثانية-والنصف.mp3" onclick="playAudio('../audio/p02/الساعة-الثانية-والنصف.mp3')">الساعة الثانية والنصف</span></td><td class="roman">as-sāʿa ath-thāniya wa-n-niṣf</td><td>两点半</td></tr><tr><td><span class="ar" data-audio="../audio/p02/الساعة-الثالثة-إلا-ربع.mp3" onclick="playAudio('../audio/p02/الساعة-الثالثة-إلا-ربع.mp3')">الساعة الثالثة إلا ربع</span></td><td class="roman">as-sāʿa ath-thālitha illā rubʿ</td><td>差一刻三点（两点四十五）</td></tr><tr><td><span class="ar" data-audio="../audio/p02/الساعة-الرابعة-ربع.mp3" onclick="playAudio('../audio/p02/الساعة-الرابعة-ربع.mp3')">الساعة الرابعة ربع</span></td><td class="roman">as-sāʿa ar-rābiʿa rubʿ</td><td>四点一刻</td></tr></table></div>
+<div class="gram-block"><h4>日期表达</h4><p class="gram-note">اليوم هو [数字] من [月份]</p><p class="gram-note">في [月份]</p></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l08-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l08-0.mp3')">كَمِ السَّاعَةُ الآنَ؟</span><span class="ex-cn"> — 现在几点？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l08-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l08-1.mp3')">السَّاعَةُ الخَامِسَةُ وَالنِّصْفُ</span><span class="ex-cn"> — 五点半</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l08-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l08-2.mp3')">فِي أَيِّ يَوْمٍ نَلْتَقِي؟</span><span class="ex-cn"> — 我们哪天见面？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l08-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l08-3.mp3')">بَعْدَ سَاعَةٍ</span><span class="ex-cn"> — 一小时后</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯国家的工作周通常是周日到周四，周五和周六是周末（周末因国而异，有些国家是周五周六，有些是周六周日）。一周的第一天是周日（الأحد），这与西方以周一为首不同。伊斯兰历（التقويم الهجري）是阴历，比公历短约11天，用于宗教节日（如开斋节、宰牲节）和官方文件。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>

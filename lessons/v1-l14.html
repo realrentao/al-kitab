@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>الطقس | الكتاب الأساسي</title>
+<link rel="stylesheet" href="../css/style.css">
+<style>
+body { padding: 16px; max-width: 900px; margin: 0 auto; }
+.header { text-align: center; margin-bottom: 24px; }
+.header .badge { display:inline-block; background:#1b5e20;color:#fff;padding:4px 14px;border-radius:20px;font-size:.85em;margin:6px 0; }
+.tags { margin:8px 0; }
+.tag { background:#e8f5e9;color:#1b5e20;padding:3px 10px;border-radius:12px;font-size:.8em;display:inline-block;margin:2px; }
+.section { margin:28px 0; padding:20px;background:#fff;border-radius:12px;box-shadow:0 1px 4px rgba(0,0,0,.08); }
+.section h2 { color:#1b5e20;border-bottom:2px solid #c8e6c9;padding-bottom:8px;font-size:1.3em; }
+.dlg-row { display:flex;gap:12px;margin:10px 0;padding:8px;background:#f1f8e9;border-radius:8px;align-items:flex-start; }
+.speaker { font-weight:700;color:#1b5e20;min-width:90px;flex-shrink:0; }
+.g-icon { font-size:.72em;margin-inline-start:5px;padding:0 5px;border-radius:8px;font-weight:700;vertical-align:middle; }
+.g-m { color:#fff;background:#1565c0; }
+.g-f { color:#fff;background:#ad1457; }
+.line { flex:1; }
+.ar { cursor:pointer;color:#1b5e20;font-weight:600;border-bottom:2px dotted #81c784;transition:background .2s; border-radius:3px;padding:1px 3px;display:inline;}
+.ar:hover { background:#c8e6c9; }
+.ar.playing { background:#a5d6a7; }
+.vocab-table,.gram-table { width:100%;border-collapse:collapse;margin:12px 0; }
+.vocab-table th,.vocab-table td,.gram-table td { border:1px solid #c8e6c9;padding:8px 12px;text-align:right; }
+.vocab-table th { background:#e8f5e9;color:#1b5e20; }
+.roman { color:#666;font-size:.92em;direction:ltr;display:inline-block; }
+.culture-block { background:#fff8e1;border-right:4px solid #ffc107;padding:14px 18px;border-radius:0 8px 8px 0;margin:12px 0; }
+.gram-block { margin:16px 0; }
+.gram-block h4 { color:#2e7d32;margin-bottom:8px; }
+.gram-note { color:#555;font-size:.93em;margin:4px 0; }
+.reading-ar { background:#e8f5e9;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:rtl; }
+.reading-cn { background:#f5f5f5;padding:16px;border-radius:8px;line-height:1.9;margin:12px 0;direction:ltr; }
+.dq-list { padding-right:20px; }
+.dq-list li { margin:8px 0; line-height:1.7; }
+.gtopics .gtopic { margin:10px 0;padding:10px;background:#fafafa;border-radius:6px; }
+.objectives { background:#e3f2fd; }
+.obj-list { list-style:none;padding:0;margin:8px 0; }
+.obj-list li { padding:7px 0;border-bottom:1px dashed #bbdefb;line-height:1.7; }
+.ar-obj { font-weight:600;color:#0d47a1; }
+.obj-cn { color:#555;font-size:.9em;margin-inline-start:6px; }
+.reading-box { background:#e8f5e9;padding:14px;border-radius:8px;line-height:1.9; }
+.rd-row { margin:10px 0;padding-bottom:8px;border-bottom:1px solid #c8e6c9; }
+.rd-cn { color:#666;font-size:.9em;direction:ltr;text-align:left; }
+.expr-box { padding:6px; }
+.expressions .ex-row { padding:6px 0;border-bottom:1px dashed #dcedc8; }
+.nav-links { display:flex;justify-content:space-between;margin:24px 0;flex-wrap:wrap;gap:8px; }
+.nav-links a { color:#1b5e20;text-decoration:none;padding:8px 18px;background:#e8f5e9;border-radius:8px;font-weight:600; }
+.nav-links a:hover { background:#c8e6c9; }
+.audio-bar { position:fixed;bottom:0;left:0;right:0;background:#1b5e20;color:#fff;padding:8px 16px;display:none;align-items:center;gap:10px;z-index:999; font-size:.9em; }
+.audio-bar button { background:#4caf50;color:#fff;border:none;padding:4px 12px;border-radius:4px;cursor:pointer; }
+</style>
+</head>
+<body>
+<a href="../index.html" style="color:#1b5e20;text-decoration:none;">← الكتاب الأساسي | x</a>
+
+<div class="header">
+  <div class="badge">المستوى الأول</div>
+  <h1><span class="ar" data-audio="../audio/p02/الطقس.mp3" onclick="playAudio('../audio/p02/الطقس.mp3')">الطقس</span></h1>
+  <p style="color:#555;">第十四课：天气</p>
+  <div class="tags"><span class="tag">طقس</span><span class="tag">حرارة</span><span class="tag">فصل</span></div>
+</div>
+
+<section class="section objectives">
+<h2>🎯 أهداف الدرس · 学习目标</h2>
+<ul class="obj-list"><li><span class="ar-obj">أن تصف الطقس</span> <span class="obj-cn">会描述天气</span></li><li><span class="ar-obj">أن تستعمل كان وأخواتها</span> <span class="obj-cn">会用 كان 及其姐妹</span></li><li><span class="ar-obj">أن تربط الطقس بالنشاط</span> <span class="obj-cn">会把天气与活动联系</span></li></ul>
+</section>
+
+<section class="section">
+<h2>💬 Dialogue</h2>
+<div class="dlg-row"><span class="speaker">صديق<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/كيف-الطقس-اليوم_m.mp3" onclick="playAudio('../audio/p04/كيف-الطقس-اليوم_m.mp3')">كيف الطقس اليوم؟</span></span></div>
+<div class="dlg-row"><span class="speaker">صديق<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/الجو-حار-جدا-والشمس-مشرقة_m.mp3" onclick="playAudio('../audio/p02/الجو-حار-جدا-والشمس-مشرقة_m.mp3')">الجو حار جداً والشمس مشرقة.</span></span></div>
+<div class="dlg-row"><span class="speaker">صديق<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p05/هل-ستمطر-غدا_m.mp3" onclick="playAudio('../audio/p05/هل-ستمطر-غدا_m.mp3')">هل ستمطر غداً؟</span></span></div>
+<div class="dlg-row"><span class="speaker">صديق<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/لا-أعتقد-ذلك-لكن-سيكون-غائما_m.mp3" onclick="playAudio('../audio/p04/لا-أعتقد-ذلك-لكن-سيكون-غائما_m.mp3')">لا أعتقد ذلك، لكن سيكون غائماً.</span></span></div>
+<div class="dlg-row"><span class="speaker">صديق<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p04/ما-فصلك-المفضل_m.mp3" onclick="playAudio('../audio/p04/ما-فصلك-المفضل_m.mp3')">ما فصلك المفضل؟</span></span></div>
+<div class="dlg-row"><span class="speaker">صديق<span class="g-icon g-m" title="男声">♂</span></span><span class="line"><span class="ar" data-audio="../audio/p02/أفضل-الشتاء-لأن-الطقس-معتدل_m.mp3" onclick="playAudio('../audio/p02/أفضل-الشتاء-لأن-الطقس-معتدل_m.mp3')">أفضل الشتاء لأن الطقس معتدل.</span></span></div>
+
+</section>
+
+<section class="section reading">
+<h2>📖 نص القراءة · 阅读课文</h2>
+<div class="reading-box"><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l14-0.mp3" onclick="playAudio('../audio/p01/rd-v1-l14-0.mp3')">كَانَ الجَوُّ أَمْسِ مُمْطِرًا وَبَارِدًا.</span><div class="rd-cn">昨天的天气多雨而寒冷。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l14-1.mp3" onclick="playAudio('../audio/p01/rd-v1-l14-1.mp3')">اليَوْمَ الشَّمْسُ سَاطِعَةٌ وَالهَوَاءُ لَطِيفٌ.</span><div class="rd-cn">今天阳光明媚，空气宜人。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l14-2.mp3" onclick="playAudio('../audio/p01/rd-v1-l14-2.mp3')">فِي الشِّتَاءِ نَلْبَسُ مَلَابِسَ دَافِئَةً.</span><div class="rd-cn">冬天我们穿保暖的衣服。</div></div><div class="rd-row"><span class="ar" data-audio="../audio/p01/rd-v1-l14-3.mp3" onclick="playAudio('../audio/p01/rd-v1-l14-3.mp3')">الطَّقْسُ الجَمِيلُ يَدْعُونَا إِلَى المَشْيِ.</span><div class="rd-cn">好天气邀我们去散步。</div></div></div>
+</section>
+
+<section class="section">
+<h2>📖 Vocabulary</h2>
+<table class="vocab-table">
+<tr><th>العربية</th><th>Romanization</th><th>中文</th></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/طقس-جو.mp3" onclick="playAudio('../audio/p04/طقس-جو.mp3')">طقس / جو</span></td><td class="roman">ṭaqs / jaww</td><td>天气</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/حار.mp3" onclick="playAudio('../audio/p03/حار.mp3')">حار</span></td><td class="roman">ḥārr</td><td>热的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p02/بارد.mp3" onclick="playAudio('../audio/p02/بارد.mp3')">بارد</span></td><td class="roman">bārid</td><td>冷的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/معتدل.mp3" onclick="playAudio('../audio/p04/معتدل.mp3')">معتدل</span></td><td class="roman">muʿtadil</td><td>温和的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مشمس.mp3" onclick="playAudio('../audio/p04/مشمس.mp3')">مشمس</span></td><td class="roman">mushmis</td><td>晴朗的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/غائم.mp3" onclick="playAudio('../audio/p04/غائم.mp3')">غائم</span></td><td class="roman">ghā&#x27;im</td><td>多云的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/ممطر.mp3" onclick="playAudio('../audio/p04/ممطر.mp3')">ممطر</span></td><td class="roman">mumṭir</td><td>下雨的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثلجي.mp3" onclick="playAudio('../audio/p03/ثلجي.mp3')">ثلجي</span></td><td class="roman">thaljī</td><td>下雪的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/عاصف.mp3" onclick="playAudio('../audio/p04/عاصف.mp3')">عاصف</span></td><td class="roman">ʿāṣif</td><td>刮风的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رطب.mp3" onclick="playAudio('../audio/p03/رطب.mp3')">رطب</span></td><td class="roman">ribuṭ</td><td>潮湿的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/جاف.mp3" onclick="playAudio('../audio/p03/جاف.mp3')">جاف</span></td><td class="roman">jāff</td><td>干燥的</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/شمس.mp3" onclick="playAudio('../audio/p03/شمس.mp3')">شمس</span></td><td class="roman">shams</td><td>太阳</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/قمر.mp3" onclick="playAudio('../audio/p04/قمر.mp3')">قمر</span></td><td class="roman">qamar</td><td>月亮</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p05/نجمة-نجوم.mp3" onclick="playAudio('../audio/p05/نجمة-نجوم.mp3')">نجمة / نجوم</span></td><td class="roman">najma / nujūm</td><td>星星</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/سحابة-سحب.mp3" onclick="playAudio('../audio/p03/سحابة-سحب.mp3')">سحابة / سحب</span></td><td class="roman">saḥāba / saḥab</td><td>云</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p04/مطر.mp3" onclick="playAudio('../audio/p04/مطر.mp3')">مطر</span></td><td class="roman">maṭar</td><td>雨</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ثلج.mp3" onclick="playAudio('../audio/p03/ثلج.mp3')">ثلج</span></td><td class="roman">thalj</td><td>雪</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/رياح.mp3" onclick="playAudio('../audio/p03/رياح.mp3')">رياح</span></td><td class="roman">riyāḥ</td><td>风</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/صيف.mp3" onclick="playAudio('../audio/p03/صيف.mp3')">صيف</span></td><td class="roman">ṣayf</td><td>夏天</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/خريف.mp3" onclick="playAudio('../audio/p03/خريف.mp3')">خريف</span></td><td class="roman">kharīf</td><td>秋天</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/شتاء.mp3" onclick="playAudio('../audio/p03/شتاء.mp3')">شتاء</span></td><td class="roman">shitāʾ</td><td>冬天</td></tr>
+<tr><td><span class="ar" data-audio="../audio/p03/ربيع.mp3" onclick="playAudio('../audio/p03/ربيع.mp3')">ربيع</span></td><td class="roman">rabīʿ</td><td>春天</td></tr>
+
+</table>
+</section>
+
+<section class="section">
+<h2>📚 Grammar</h2>
+<div class="gram-block"><h4>天气描述句型</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p02/الجو-حار.mp3" onclick="playAudio('../audio/p02/الجو-حار.mp3')">الْجَوُّ حَارٌّ</span></td><td class="roman">al-jawwu ḥārr</td><td>天气热</td></tr><tr><td><span class="ar" data-audio="../audio/p02/السماء-ممطرة.mp3" onclick="playAudio('../audio/p02/السماء-ممطرة.mp3')">السَّمَاءُ مُمْطِرَةٌ</span></td><td class="roman">as-samāʾu mumṭira</td><td>天空在下雨</td></tr><tr><td><span class="ar" data-audio="../audio/p03/تسقط-الثلوج.mp3" onclick="playAudio('../audio/p03/تسقط-الثلوج.mp3')">تَسْقُطُ الثُّلُوجُ</span></td><td class="roman">tasquṭu th-thulūju</td><td>在下雪</td></tr></table></div>
+<div class="gram-block"><h4>季节词汇</h4><table class="gram-table"><tr><td><span class="ar" data-audio="../audio/p04/فصل-الصيف.mp3" onclick="playAudio('../audio/p04/فصل-الصيف.mp3')">فَصْلُ الصَّيْفِ</span></td><td class="roman">faṣlu ṣ-ṣayfi</td><td>夏季</td></tr><tr><td><span class="ar" data-audio="../audio/p04/فصل-الشتاء.mp3" onclick="playAudio('../audio/p04/فصل-الشتاء.mp3')">فَصْلُ الشِّتَاءِ</span></td><td class="roman">faṣu sh-shitāʾi</td><td>冬季</td></tr></table></div>
+
+</section>
+
+<section class="section expressions">
+<h2>💡 عبارات مفيدة · 常用表达</h2>
+<div class="expr-box"><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l14-0.mp3" onclick="playAudio('../audio/p00/ex-v1-l14-0.mp3')">كَيْفَ الطَّقْسُ اليَوْمَ؟</span><span class="ex-cn"> — 今天天气如何？</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l14-1.mp3" onclick="playAudio('../audio/p00/ex-v1-l14-1.mp3')">يَبْرُدُ الجَوُّ لَيْلًا</span><span class="ex-cn"> — 夜里天气转冷</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l14-2.mp3" onclick="playAudio('../audio/p00/ex-v1-l14-2.mp3')">مَطَرٌ خَفِيفٌ</span><span class="ex-cn"> — 小雨</span></div><div class="ex-row"><span class="ar" data-audio="../audio/p00/ex-v1-l14-3.mp3" onclick="playAudio('../audio/p00/ex-v1-l14-3.mp3')">هَوَاءٌ مُنْعِشٌ</span><span class="ex-cn"> — 清新的空气</span></div></div>
+</section>
+
+<div class="culture-block"><p>阿拉伯半岛大部分地区属于热带沙漠气候，炎热干燥，夏季气温可达50°C以上。地中海沿岸（如黎巴嫩、摩洛哥北部）则有温和的地中海气候，四季分明。沙漠地区昼夜温差极大。「 Khamsin」（خمسين）是一种春季沙尘暴的名字，意为「五十」，据说可持续五十天。水资源稀缺使雨水成为珍贵的祝福，阿拉伯人常用「الله يزيد」（愿真主增加）来祈雨。</p></div>
+
+
+<div class="nav-links">
+  <a href="../index.html">→ الصفحة الرئيسية</a>
+</div>
+
+<div class="audio-bar" id="audioBar">
+  <span id="nowPlaying"></span>
+  <button onclick="stopAudio()">⏹ إيقاف</button>
+</div>
+<script src="../js/site.js"></script>
+</body>
+</html>
